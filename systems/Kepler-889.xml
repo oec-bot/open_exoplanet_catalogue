@@ -4,21 +4,31 @@
 	<declination>+50 45 34</declination>
 	<star>
 		<name>Kepler-889</name>
-		<temperature errorminus="60.0" errorplus="75.2">5961.0</temperature>
-		<mass errorminus="0.05" errorplus="0.07">1.14</mass>
-		<radius errorminus="0.14" errorplus="0.22">1.25</radius>
-		<metallicity errorminus="0.08" errorplus="0.08">0.19</metallicity>
+		<radius errorminus="0.22" errorplus="-0.14">1.25</radius>
+		<mass errorminus="0.07" errorplus="-0.05">1.14</mass>
+		<magK>11.327</magK>
+		<magJ>11.640</magJ>
+		<magH>11.384</magH>
+		<metallicity errorminus="0.080" errorplus="-0.084">0.190</metallicity>
+		<age errorminus="1.140" errorplus="-1.700">3.980</age>
+		<temperature errorminus="75.23" errorplus="-59.95">5961.00</temperature>
 		<planet>
 			<name>Kepler-889 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.140" errorplus="-1.700">3.980</age>
+			<magK>11.327</magK>
+			<magJ>11.640</magJ>
+			<magH>11.384</magH>
+			<metallicity errorminus="0.080" errorplus="-0.084">0.190</metallicity>
+			<radius errorminus="0.017" errorplus="-0.012">0.097</radius>
+			<transittime errorminus="0.0036040" errorplus="-0.0036040">0.1228830</transittime>
+			<period errorminus="0.00001366" errorplus="-0.00001366">3.74443900</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000013660" errorplus="0.000013660">3.744439000</period>
-			<radius errorminus="0.012" errorplus="0.017">0.097</radius>
 		</planet>
 	</star>
 </system>
