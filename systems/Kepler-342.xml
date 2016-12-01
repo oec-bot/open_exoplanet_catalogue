@@ -7,13 +7,15 @@
 	<distance>807.28</distance>
 	<star>
 		<magJ errorminus="0.021" errorplus="0.021">12.220</magJ>
+		<metallicity>-0.053</metallicity>
+		<temperature errorminus="100.00" errorplus="-100.00">6175.00</temperature>
+		<radius errorminus="0.26" errorplus="-0.26">1.47</radius>
+		<mass>1.13</mass>
 		<magH errorminus="0.022" errorplus="0.022">11.999</magH>
 		<magK errorminus="0.021" errorplus="0.021">11.957</magK>
 		<name>Kepler-342</name>
 		<name>KOI-1955</name>
 		<name>KIC 9892816</name>
-		<temperature errorminus="100" errorplus="100">6175</temperature>
-		<radius errorminus=".257" errorplus="0.257">1.472</radius>
 		<planet>
 			<name>Kepler-342 b</name>
 			<name>KOI-1955 b</name>
@@ -26,7 +28,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-342 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-342 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -64,15 +66,20 @@
 		</planet>
 		<planet>
 			<name>Kepler-342 e</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<radius errorminus="0.007" errorplus="-0.005">0.079</radius>
+			<magK>11.957</magK>
+			<magJ>12.220</magJ>
+			<magH>11.999</magH>
+			<metallicity>-0.053</metallicity>
+			<transittime errorminus="0.0037000" errorplus="-0.0037000">0.1159250</transittime>
+			<period errorminus="0.00000621" errorplus="-0.00000621">1.64422461</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000006210" errorplus="0.000006210">1.644224610</period>
-			<radius errorminus="0.005" errorplus="0.007">0.079</radius>
 		</planet>
 	</star>
 </system>
