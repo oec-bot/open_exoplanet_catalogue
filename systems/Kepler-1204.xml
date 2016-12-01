@@ -4,21 +4,31 @@
 	<declination>+42 29 53</declination>
 	<star>
 		<name>Kepler-1204</name>
-		<temperature errorminus="121.1" errorplus="88.4">5825.0</temperature>
-		<mass errorminus="0.06" errorplus="0.06">1.03</mass>
-		<radius errorminus="0.10" errorplus="0.29">1.03</radius>
-		<metallicity errorminus="0.14" errorplus="0.13">0.06</metallicity>
+		<radius errorminus="0.29" errorplus="-0.10">1.03</radius>
+		<mass errorminus="0.06" errorplus="-0.06">1.03</mass>
+		<magK>13.771</magK>
+		<magJ>14.119</magJ>
+		<magH>13.801</magH>
+		<metallicity errorminus="0.127" errorplus="-0.145">0.060</metallicity>
+		<age errorminus="3.000" errorplus="-2.500">4.270</age>
+		<temperature errorminus="88.38" errorplus="-121.08">5825.00</temperature>
 		<planet>
 			<name>Kepler-1204 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.000" errorplus="-2.500">4.270</age>
+			<magK>13.771</magK>
+			<magJ>14.119</magJ>
+			<magH>13.801</magH>
+			<metallicity errorminus="0.127" errorplus="-0.145">0.060</metallicity>
+			<radius errorminus="0.078" errorplus="-0.027">0.272</radius>
+			<transittime errorminus="0.0079200" errorplus="-0.0079200">0.3107100</transittime>
+			<period errorminus="0.00063730" errorplus="-0.00063730">85.73502850</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000637300" errorplus="0.000637300">85.735028500</period>
-			<radius errorminus="0.027" errorplus="0.078">0.272</radius>
 		</planet>
 	</star>
 </system>
