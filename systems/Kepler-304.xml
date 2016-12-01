@@ -7,14 +7,15 @@
 	<distance>482.29</distance>
 	<star>
 		<magJ errorminus="0.024" errorplus="0.024">13.243</magJ>
-		<magH errorminus="0.03" errorplus="0.03">12.75</magH>
-		<magK errorminus="0.03" errorplus="0.03">12.63</magK>
+		<metallicity>0.523</metallicity>
+		<temperature errorminus="100.00" errorplus="-100.00">4731.00</temperature>
+		<radius errorminus="0.04" errorplus="-0.04">0.69</radius>
+		<magH errorminus="0.03" errorplus="0.03">12.750</magH>
+		<magK errorminus="0.03" errorplus="0.03">12.626</magK>
 		<name>Kepler-304</name>
 		<name>KOI-1557</name>
 		<name>KIC 5371776</name>
-		<temperature errorminus="100" errorplus="100">4731</temperature>
-		<radius errorminus=".037" errorplus="0.037">0.687</radius>
-		<mass errorminus="0.0450" errorplus="0.0450">0.6870</mass>
+		<mass errorminus="0.0450" errorplus="0.0450">0.80</mass>
 		<planet>
 			<name>Kepler-304 b</name>
 			<name>KOI-1557 b</name>
@@ -27,7 +28,7 @@
 			<list>Confirmed planets</list>
 			<description>Kepler-304 b has been discovered by the Kepler spacecraft and was originally classified as a planet candidate. A new statistical analysis led by a team at NASA Ames Research Center has validated the planet with more than 99 percent confidence. Although many parameters of Kepler-304 b are still unknown, the object is highly unlikely to be a false positive.</description>
 			<discoveryyear>2014</discoveryyear>
-			<lastupdate>14/02/26</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
 		</planet>
@@ -65,15 +66,20 @@
 		</planet>
 		<planet>
 			<name>Kepler-304 e</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<radius errorminus="0.005" errorplus="-0.003">0.107</radius>
+			<magK>12.626</magK>
+			<magJ>13.243</magJ>
+			<magH>12.750</magH>
+			<metallicity>0.523</metallicity>
+			<transittime errorminus="0.0021500" errorplus="-0.0021500">0.0600870</transittime>
+			<period errorminus="0.00000280" errorplus="-0.00000280">1.49914695</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000002800" errorplus="0.000002800">1.499146950</period>
-			<radius errorminus="0.003" errorplus="0.005">0.107</radius>
 		</planet>
 	</star>
 </system>
