@@ -4,21 +4,31 @@
 	<declination>+42 14 54</declination>
 	<star>
 		<name>Kepler-977</name>
-		<temperature errorminus="105.2" errorplus="84.5">5315.0</temperature>
-		<mass errorminus="0.05" errorplus="0.04">0.87</mass>
-		<radius errorminus="0.04" errorplus="0.06">0.83</radius>
-		<metallicity errorminus="0.16" errorplus="0.15">-0.01</metallicity>
+		<radius errorminus="0.06" errorplus="-0.04">0.83</radius>
+		<mass errorminus="0.04" errorplus="-0.05">0.87</mass>
+		<magK>12.920</magK>
+		<magJ>13.434</magJ>
+		<magH>13.018</magH>
+		<metallicity errorminus="0.153" errorplus="-0.163">-0.010</metallicity>
+		<age errorminus="6.020" errorplus="-2.850">4.570</age>
+		<temperature errorminus="84.55" errorplus="-105.24">5315.00</temperature>
 		<planet>
 			<name>Kepler-977 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="6.020" errorplus="-2.850">4.570</age>
+			<magK>12.920</magK>
+			<magJ>13.434</magJ>
+			<magH>13.018</magH>
+			<metallicity errorminus="0.153" errorplus="-0.163">-0.010</metallicity>
+			<radius errorminus="0.015" errorplus="-0.015">0.234</radius>
+			<transittime errorminus="0.0023670" errorplus="-0.0023670">0.1877630</transittime>
+			<period errorminus="0.00006393" errorplus="-0.00006393">26.85328322</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000063930" errorplus="0.000063930">26.853283220</period>
-			<radius errorminus="0.015" errorplus="0.015">0.234</radius>
 		</planet>
 	</star>
 </system>
