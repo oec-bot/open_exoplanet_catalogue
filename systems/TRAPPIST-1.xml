@@ -113,18 +113,26 @@
 		<planet>
 			<name>TRAPPIST-1 d</name>
 			<semimajoraxis errorminus="0.06" errorplus="0.06">0.08</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination errorminus="0.1" errorplus="0.1">89.87</inclination>
-			<impactparameter errorminus="0.15" errorplus="0.15">0.24</impactparameter>
-			<period errorminus="14.0" errorplus="54.0">18.202</period>
-			<radius errorminus="0.0061" errorplus="0.0061">0.1042</radius>
+			<eccentricity>0.000000</eccentricity>
+			<inclination errorminus="0.100" errorplus="-0.100">89.870</inclination>
+			<period errorminus="14.0" errorplus="54.0">18.20200000</period>
+			<impactparameter errorminus="0.1500" errorplus="-0.1500">0.2400</impactparameter>
+			<magR>16.470</magR>
+			<magK>10.296</magK>
+			<magJ>11.354</magJ>
+			<magI>14.000</magI>
+			<magH>10.718</magH>
+			<metallicity errorminus="0.080" errorplus="-0.080">0.040</metallicity>
+			<istransiting>1</istransiting>
+			<radius errorminus="0.006" errorplus="-0.006">0.104</radius>
+			<transittime errorminus="0.0017500" errorplus="-0.0017500">0.0578333</transittime>
 			<temperature>180.0</temperature>
-			<age>0.5</age>
-			<discoverymethod>Primary Transit</discoverymethod>
+			<age>0.500</age>
+			<discoverymethod>Transit</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/11/30</lastupdate>
 			<spectraltype>M8</spectraltype>
-			<magV>18.8</magV>
+			<magV>18.800</magV>
 		</planet>
 	</star>
 </system>
