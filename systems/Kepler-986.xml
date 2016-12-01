@@ -4,21 +4,31 @@
 	<declination>+42 53 47</declination>
 	<star>
 		<name>Kepler-986</name>
-		<temperature errorminus="60.9" errorplus="74.2">5642.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.96</mass>
-		<radius errorminus="0.08" errorplus="0.12">0.98</radius>
-		<metallicity errorminus="0.10" errorplus="0.10">0.04</metallicity>
+		<radius errorminus="0.12" errorplus="-0.08">0.98</radius>
+		<mass errorminus="0.04" errorplus="-0.04">0.96</mass>
+		<magK>12.107</magK>
+		<magJ>12.513</magJ>
+		<magH>12.171</magH>
+		<metallicity errorminus="0.096" errorplus="-0.101">0.040</metallicity>
+		<age errorminus="3.540" errorplus="-3.840">6.170</age>
+		<temperature errorminus="74.24" errorplus="-60.93">5642.00</temperature>
 		<planet>
 			<name>Kepler-986 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.540" errorplus="-3.840">6.170</age>
+			<magK>12.107</magK>
+			<magJ>12.513</magJ>
+			<magH>12.171</magH>
+			<metallicity errorminus="0.096" errorplus="-0.101">0.040</metallicity>
+			<radius errorminus="0.026" errorplus="-0.017">0.211</radius>
+			<transittime errorminus="0.0029710" errorplus="-0.0029710">0.1959540</transittime>
+			<period errorminus="0.00014460" errorplus="-0.00014460">56.43499380</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000144600" errorplus="0.000144600">56.434993800</period>
-			<radius errorminus="0.017" errorplus="0.026">0.211</radius>
 		</planet>
 	</star>
 </system>
