@@ -4,21 +4,31 @@
 	<declination>+46 52 53</declination>
 	<star>
 		<name>Kepler-990</name>
-		<temperature errorminus="213.6" errorplus="211.1">5948.0</temperature>
-		<mass errorminus="0.09" errorplus="0.12">1.05</mass>
-		<radius errorminus="0.14" errorplus="0.27">1.08</radius>
-		<metallicity errorminus="0.17" errorplus="0.13">0.01</metallicity>
+		<radius errorminus="0.27" errorplus="-0.14">1.08</radius>
+		<mass errorminus="0.12" errorplus="-0.09">1.05</mass>
+		<magK>12.928</magK>
+		<magJ>13.362</magJ>
+		<magH>13.031</magH>
+		<metallicity errorminus="0.134" errorplus="-0.173">0.010</metallicity>
+		<age errorminus="2.380" errorplus="-1.750">3.550</age>
+		<temperature errorminus="211.07" errorplus="-213.60">5948.00</temperature>
 		<planet>
 			<name>Kepler-990 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.380" errorplus="-1.750">3.550</age>
+			<magK>12.928</magK>
+			<magJ>13.362</magJ>
+			<magH>13.031</magH>
+			<metallicity errorminus="0.134" errorplus="-0.173">0.010</metallicity>
+			<radius errorminus="0.058" errorplus="-0.037">0.232</radius>
+			<transittime errorminus="0.0025380" errorplus="-0.0025380">0.1358210</transittime>
+			<period errorminus="0.00002468" errorplus="-0.00002468">9.91723428</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000024680" errorplus="0.000024680">9.917234280</period>
-			<radius errorminus="0.037" errorplus="0.058">0.232</radius>
 		</planet>
 		<planet>
 			<name>Kepler-990 c</name>
