@@ -89,5 +89,21 @@
 			<spectraltype>M8</spectraltype>
 			<magV>18.8</magV>
 		</planet>
+		<planet>
+			<name>TRAPPIST-1 d</name>
+			<semimajoraxis errorminus="0.06" errorplus="0.06">0.08</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.1" errorplus="0.1">89.87</inclination>
+			<impactparameter errorminus="0.15" errorplus="0.15">0.24</impactparameter>
+			<period errorminus="14.0" errorplus="54.0">18.202</period>
+			<radius errorminus="0.0061" errorplus="0.0061">0.1042</radius>
+			<temperature>180.0</temperature>
+			<age>0.5</age>
+			<discoverymethod>Primary Transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/11/30</lastupdate>
+			<spectraltype>M8</spectraltype>
+			<magV>18.8</magV>
+		</planet>
 	</star>
 </system>
