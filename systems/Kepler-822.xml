@@ -4,21 +4,31 @@
 	<declination>+39 33 01</declination>
 	<star>
 		<name>Kepler-822</name>
-		<temperature errorminus="183.6" errorplus="139.4">5928.0</temperature>
-		<mass errorminus="0.08" errorplus="0.09">1.06</mass>
-		<radius errorminus="0.13" errorplus="0.25">1.08</radius>
-		<metallicity errorminus="0.15" errorplus="0.14">0.04</metallicity>
+		<radius errorminus="0.25" errorplus="-0.13">1.08</radius>
+		<mass errorminus="0.09" errorplus="-0.08">1.06</mass>
+		<magK>13.053</magK>
+		<magJ>13.391</magJ>
+		<magH>13.040</magH>
+		<metallicity errorminus="0.137" errorplus="-0.147">0.040</metallicity>
+		<age errorminus="2.270" errorplus="-1.830">3.550</age>
+		<temperature errorminus="139.36" errorplus="-183.56">5928.00</temperature>
 		<planet>
 			<name>Kepler-822 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.270" errorplus="-1.830">3.550</age>
+			<magK>13.053</magK>
+			<magJ>13.391</magJ>
+			<magH>13.040</magH>
+			<metallicity errorminus="0.137" errorplus="-0.147">0.040</metallicity>
+			<radius errorminus="0.037" errorplus="-0.019">0.158</radius>
+			<transittime errorminus="0.0030540" errorplus="-0.0030540">0.1190630</transittime>
+			<period errorminus="0.00000946" errorplus="-0.00000946">3.22296927</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009460" errorplus="0.000009460">3.222969270</period>
-			<radius errorminus="0.019" errorplus="0.037">0.158</radius>
 		</planet>
 	</star>
 </system>
