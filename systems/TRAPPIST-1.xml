@@ -6,13 +6,18 @@
 	<star>
 		<name>TRAPPIST-1</name>
 		<name>2MASS J23062928-0502285</name>
-		<mass errorminus="0.009" errorplus="0.009">0.080</mass>
-		<radius errorminus="0.006" errorplus="0.006">0.114</radius>
-		<temperature errorminus="55" errorplus="55">2550</temperature>
-		<magV>18.8</magV>
-		<metallicity errorminus="0.08" errorplus="0.08">0.04</metallicity>
+		<mass errorminus="0.01" errorplus="-0.01">0.08</mass>
+		<radius errorminus="0.00" errorplus="-0.00">0.12</radius>
+		<magV>18.800</magV>
+		<magR>16.470</magR>
+		<magK>10.296</magK>
+		<magJ>11.354</magJ>
+		<magI>14.000</magI>
+		<magH>10.718</magH>
+		<metallicity errorminus="0.080" errorplus="-0.080">0.040</metallicity>
+		<temperature errorminus="55.00" errorplus="-55.00">2550.00</temperature>
 		<spectraltype>M8</spectraltype>
-		<age lowerlimit="0.5"/>
+		<age lowerlimit="0.5">0.500</age>
 		<planet>
 			<name>TRAPPIST-1b</name>
 			<list>Confirmed planets</list>
@@ -25,7 +30,7 @@
 			<description>Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory have discovered three planets orbiting an ultracool dwarf star just 40 light-years from Earth. These worlds have sizes and temperatures similar to those of Venus and Earth and are the best targets found so far for the search for life outside the Solar System. They are the first planets ever discovered around such a tiny and dim star.</description>
 			<discoverymethod>transit</discoverymethod>
 			<istransiting>1</istransiting>
-			<lastupdate>16/05/01</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<discoveryyear>2016</discoveryyear>
 		</planet>
 		<planet>
@@ -59,19 +64,27 @@
 		</planet>
 		<planet>
 			<name>TRAPPIST-1 b</name>
-			<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.01111</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination errorminus="0.41" errorplus="0.41">89.41</inclination>
-			<impactparameter errorminus="0.14" errorplus="0.14">0.21</impactparameter>
-			<period errorminus="1.9e-05" errorplus="1.9e-05">1.510848</period>
-			<radius errorminus="0.0039" errorplus="0.0039">0.0993</radius>
-			<temperature>350.0</temperature>
-			<age>0.5</age>
-			<discoverymethod>Primary Transit</discoverymethod>
+			<eccentricity>0.000000</eccentricity>
+			<semimajoraxis errorminus="-0.000400" errorplus="0.000400">0.011110</semimajoraxis>
+			<magR>16.470</magR>
+			<magK>10.296</magK>
+			<magJ>11.354</magJ>
+			<magI>14.000</magI>
+			<magH>10.718</magH>
+			<metallicity errorminus="0.080" errorplus="-0.080">0.040</metallicity>
+			<istransiting>1</istransiting>
+			<temperature errorminus="9" errorplus="-9">400</temperature>
+			<radius errorminus="0.004" errorplus="-0.004">0.099</radius>
+			<transittime errorminus="0.0003208" errorplus="-0.0003208">0.0250833</transittime>
+			<period errorminus="0.00001900" errorplus="-0.00001900">1.51084800</period>
+			<impactparameter errorminus="0.1400" errorplus="-0.1400">0.2100</impactparameter>
+			<inclination errorminus="0.410" errorplus="-0.410">89.410</inclination>
+			<age>0.500</age>
+			<discoverymethod>Transit</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/11/30</lastupdate>
 			<spectraltype>M8</spectraltype>
-			<magV>18.8</magV>
+			<magV>18.800</magV>
 		</planet>
 		<planet>
 			<name>TRAPPIST-1 c</name>
