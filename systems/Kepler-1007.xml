@@ -4,21 +4,31 @@
 	<declination>+45 48 33</declination>
 	<star>
 		<name>Kepler-1007</name>
-		<temperature errorminus="98.5" errorplus="88.0">4587.0</temperature>
-		<mass errorminus="0.04" errorplus="0.03">0.73</mass>
-		<radius errorminus="0.03" errorplus="0.03">0.70</radius>
-		<metallicity errorminus="0.16" errorplus="0.15">0.03</metallicity>
+		<radius errorminus="0.03" errorplus="-0.03">0.70</radius>
+		<mass errorminus="0.03" errorplus="-0.04">0.73</mass>
+		<magK>12.224</magK>
+		<magJ>12.940</magJ>
+		<magH>12.326</magH>
+		<metallicity errorminus="0.152" errorplus="-0.160">0.030</metallicity>
+		<age errorminus="5.920" errorplus="-2.380">4.170</age>
+		<temperature errorminus="88.05" errorplus="-98.48">4587.00</temperature>
 		<planet>
 			<name>Kepler-1007 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.920" errorplus="-2.380">4.170</age>
+			<magK>12.224</magK>
+			<magJ>12.940</magJ>
+			<magH>12.326</magH>
+			<metallicity errorminus="0.152" errorplus="-0.160">0.030</metallicity>
+			<radius errorminus="0.006" errorplus="-0.006">0.128</radius>
+			<transittime errorminus="0.0020790" errorplus="-0.0020790">0.0907120</transittime>
+			<period errorminus="0.00000932" errorplus="-0.00000932">5.18500207</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009320" errorplus="0.000009320">5.185002070</period>
-			<radius errorminus="0.006" errorplus="0.006">0.128</radius>
 		</planet>
 	</star>
 </system>
