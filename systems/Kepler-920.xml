@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-920 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="6.100" errorplus="-2.630">4.370</age>
+			<magK>13.511</magK>
+			<magJ>14.026</magJ>
+			<magH>13.649</magH>
+			<metallicity errorminus="0.147" errorplus="-0.191">0.000</metallicity>
+			<radius errorminus="0.052" errorplus="-0.025">0.339</radius>
+			<transittime errorminus="0.0073300" errorplus="-0.0073300">0.3450400</transittime>
+			<period errorminus="0.00070630" errorplus="-0.00070630">100.82741130</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000706300" errorplus="0.000706300">100.827411300</period>
-			<radius errorminus="0.025" errorplus="0.052">0.339</radius>
 		</planet>
 	</star>
 </system>
