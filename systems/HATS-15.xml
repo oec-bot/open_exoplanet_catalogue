@@ -7,30 +7,40 @@
 		<name>HATS-15</name>
 		<name>2MASS J20442207-1926150</name>
 		<magB errorminus="0.030" errorplus="0.030">15.797</magB>
+		<metallicity errorminus="0.050" errorplus="-0.050">0.000</metallicity>
+		<age errorminus="1.400" errorplus="-2.000">11.000</age>
+		<temperature errorminus="77.00" errorplus="-77.00">5311.00</temperature>
+		<radius errorminus="0.03" errorplus="-0.03">0.92</radius>
+		<mass errorminus="0.02" errorplus="-0.02">0.87</mass>
 		<magV errorminus="0.010" errorplus="0.010">14.774</magV>
 		<magJ errorminus="0.027" errorplus="0.027">13.261</magJ>
 		<magH errorminus="0.024" errorplus="0.024">12.806</magH>
 		<magK errorminus="0.032" errorplus="0.032">12.724</magK>
-		<mass errorminus="0.023" errorplus="0.023">0.871</mass>
-		<radius errorminus="0.027" errorplus="0.027">0.922</radius>
-		<temperature errorminus="77" errorplus="77">5311</temperature>
-		<metallicity errorminus="0.050" errorplus="0.050">0.000</metallicity>
-		<age errorminus="2.0" errorplus="1.4">11.0</age>
-		<spectraltype>G9V</spectraltype>
+		<spectraltype>G9 V</spectraltype>
 		<planet>
 			<name>HATS-15 b</name>
-			<period errorminus="0.00000094" errorplus="0.00000094">1.74748753</period>
-			<transittime errorminus="0.00015" errorplus="0.00015" unit="BJD">2456387.21161</transittime>
-			<inclination errorminus="0.67" errorplus="0.97">87.13</inclination>
-			<eccentricity upperlimit="0.126" />
-			<mass errorminus="0.15" errorplus="0.15">2.17</mass>
-			<radius errorminus="0.040" errorplus="0.040">1.105</radius>
-			<semimajoraxis errorminus="0.00023" errorplus="0.00023">0.02712</semimajoraxis>
+			<impactparameter errorminus="0.0640" errorplus="-0.1010">0.3170</impactparameter>
+			<inclination errorminus="0.970" errorplus="-0.670">87.130</inclination>
+			<magV>14.774</magV>
+			<magK>12.724</magK>
+			<magJ>13.261</magJ>
+			<magH>12.806</magH>
+			<magB>15.797</magB>
+			<spectraltype>G9 V</spectraltype>
+			<metallicity errorminus="0.050" errorplus="-0.050">0.000</metallicity>
+			<age errorminus="1.400" errorplus="-2.000">11.000</age>
+			<temperature errorminus="30" errorplus="-30">1505</temperature>
+			<radius errorminus="0.040" errorplus="-0.040">1.105</radius>
+			<mass errorminus="0.15000" errorplus="-0.15000">2.17000</mass>
+			<transittime errorminus="0.0007400" errorplus="-0.0007400">0.0945700</transittime>
+			<period errorminus="0.00000094" errorplus="-0.00000094">1.74748753</period>
+			<semimajoraxis errorminus="-0.000230" errorplus="0.000230">0.027120</semimajoraxis>
+			<eccentricity upperlimit="0.126">0.126000</eccentricity>
 			<istransiting>1</istransiting>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>HATS-15b is a massive planet transiting a G9V star.</description>
-			<lastupdate>15/11/26</lastupdate>
+			<lastupdate>16/12/01</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 	</star>
