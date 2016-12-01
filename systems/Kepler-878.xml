@@ -4,21 +4,31 @@
 	<declination>+46 36 12</declination>
 	<star>
 		<name>Kepler-878</name>
-		<temperature errorminus="47.7" errorplus="49.5">5044.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.81</mass>
-		<radius errorminus="0.04" errorplus="0.04">0.77</radius>
-		<metallicity errorminus="0.17" errorplus="0.15">-0.03</metallicity>
+		<radius errorminus="0.04" errorplus="-0.04">0.77</radius>
+		<mass errorminus="0.04" errorplus="-0.04">0.81</mass>
+		<magK>12.788</magK>
+		<magJ>13.363</magJ>
+		<magH>12.907</magH>
+		<metallicity errorminus="0.152" errorplus="-0.167">-0.030</metallicity>
+		<age errorminus="5.900" errorplus="-2.760">4.570</age>
+		<temperature errorminus="49.53" errorplus="-47.72">5044.00</temperature>
 		<planet>
 			<name>Kepler-878 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.900" errorplus="-2.760">4.570</age>
+			<magK>12.788</magK>
+			<magJ>13.363</magJ>
+			<magH>12.907</magH>
+			<metallicity errorminus="0.152" errorplus="-0.167">-0.030</metallicity>
+			<radius errorminus="0.011" errorplus="-0.009">0.172</radius>
+			<transittime errorminus="0.0041630" errorplus="-0.0041630">0.1685080</transittime>
+			<period errorminus="0.00010290" errorplus="-0.00010290">25.94220330</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000102900" errorplus="0.000102900">25.942203300</period>
-			<radius errorminus="0.009" errorplus="0.011">0.172</radius>
 		</planet>
 	</star>
 </system>
