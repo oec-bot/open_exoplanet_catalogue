@@ -4,21 +4,31 @@
 	<declination>+46 30 08</declination>
 	<star>
 		<name>Kepler-1066</name>
-		<temperature errorminus="209.5" errorplus="287.4">5762.0</temperature>
-		<mass errorminus="0.07" errorplus="0.11">0.98</mass>
-		<radius errorminus="0.11" errorplus="0.20">0.98</radius>
-		<metallicity errorminus="0.18" errorplus="0.14">-0.03</metallicity>
+		<radius errorminus="0.20" errorplus="-0.11">0.98</radius>
+		<mass errorminus="0.11" errorplus="-0.07">0.98</mass>
+		<magK>11.362</magK>
+		<magJ>11.783</magJ>
+		<magH>11.403</magH>
+		<metallicity errorminus="0.143" errorplus="-0.183">-0.030</metallicity>
+		<age errorminus="4.000" errorplus="-2.110">3.800</age>
+		<temperature errorminus="287.38" errorplus="-209.47">5762.00</temperature>
 		<planet>
 			<name>Kepler-1066 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.000" errorplus="-2.110">3.800</age>
+			<magK>11.362</magK>
+			<magJ>11.783</magJ>
+			<magH>11.403</magH>
+			<metallicity errorminus="0.143" errorplus="-0.183">-0.030</metallicity>
+			<radius errorminus="0.045" errorplus="-0.029">0.211</radius>
+			<transittime errorminus="0.0010880" errorplus="-0.0010880">0.0678460</transittime>
+			<period errorminus="0.00000157" errorplus="-0.00000157">1.93155984</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000001570" errorplus="0.000001570">1.931559840</period>
-			<radius errorminus="0.029" errorplus="0.045">0.211</radius>
 		</planet>
 	</star>
 </system>
