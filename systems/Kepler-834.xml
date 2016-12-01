@@ -4,21 +4,31 @@
 	<declination>+45 10 49</declination>
 	<star>
 		<name>Kepler-834</name>
-		<temperature errorminus="45.2" errorplus="50.4">4554.0</temperature>
-		<mass errorminus="0.03" errorplus="0.03">0.70</mass>
-		<radius errorminus="0.03" errorplus="0.03">0.66</radius>
-		<metallicity errorminus="0.10" errorplus="0.12">-0.13</metallicity>
+		<radius errorminus="0.03" errorplus="-0.03">0.66</radius>
+		<mass errorminus="0.03" errorplus="-0.03">0.70</mass>
+		<magK>13.484</magK>
+		<magJ>14.167</magJ>
+		<magH>13.601</magH>
+		<metallicity errorminus="0.118" errorplus="-0.099">-0.130</metallicity>
+		<age errorminus="4.760" errorplus="-1.310">2.690</age>
+		<temperature errorminus="50.38" errorplus="-45.20">4554.00</temperature>
 		<planet>
 			<name>Kepler-834 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.760" errorplus="-1.310">2.690</age>
+			<magK>13.484</magK>
+			<magJ>14.167</magJ>
+			<magH>13.601</magH>
+			<metallicity errorminus="0.118" errorplus="-0.099">-0.130</metallicity>
+			<radius errorminus="0.009" errorplus="-0.009">0.180</radius>
+			<transittime errorminus="0.0040040" errorplus="-0.0040040">0.1365330</transittime>
+			<period errorminus="0.00005212" errorplus="-0.00005212">13.32388301</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000052120" errorplus="0.000052120">13.323883010</period>
-			<radius errorminus="0.009" errorplus="0.009">0.180</radius>
 		</planet>
 	</star>
 </system>
