@@ -4,21 +4,31 @@
 	<declination>+47 28 09</declination>
 	<star>
 		<name>Kepler-1075</name>
-		<temperature errorminus="38.7" errorplus="39.3">3959.0</temperature>
-		<mass errorminus="0.03" errorplus="0.03">0.56</mass>
-		<radius errorminus="0.03" errorplus="0.02">0.54</radius>
-		<metallicity errorminus="0.10" errorplus="0.11">-0.17</metallicity>
+		<radius errorminus="0.02" errorplus="-0.03">0.54</radius>
+		<mass errorminus="0.03" errorplus="-0.03">0.56</mass>
+		<magK>12.415</magK>
+		<magJ>13.217</magJ>
+		<magH>12.555</magH>
+		<metallicity errorminus="0.111" errorplus="-0.105">-0.170</metallicity>
+		<age errorminus="4.340" errorplus="-1.400">2.950</age>
+		<temperature errorminus="39.29" errorplus="-38.69">3959.00</temperature>
 		<planet>
 			<name>Kepler-1075 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.340" errorplus="-1.400">2.950</age>
+			<magK>12.415</magK>
+			<magJ>13.217</magJ>
+			<magH>12.555</magH>
+			<metallicity errorminus="0.111" errorplus="-0.105">-0.170</metallicity>
+			<radius errorminus="0.014" errorplus="-0.029">0.127</radius>
+			<transittime errorminus="0.0025170" errorplus="-0.0025170">0.0610500</transittime>
+			<period errorminus="0.00000270" errorplus="-0.00000270">1.52372816</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000002700" errorplus="0.000002700">1.523728160</period>
-			<radius errorminus="0.029" errorplus="0.014">0.127</radius>
 		</planet>
 	</star>
 </system>
