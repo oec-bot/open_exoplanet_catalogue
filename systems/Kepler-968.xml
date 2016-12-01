@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-968 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.200" errorplus="-0.786">2.140</age>
+			<magK>11.831</magK>
+			<magJ>12.518</magJ>
+			<magH>11.971</magH>
+			<metallicity errorminus="0.133" errorplus="-0.211">0.130</metallicity>
+			<radius errorminus="0.007" errorplus="-0.006">0.151</radius>
+			<transittime errorminus="0.0019830" errorplus="-0.0019830">0.0657040</transittime>
+			<period errorminus="0.00000954" errorplus="-0.00000954">5.70940492</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009540" errorplus="0.000009540">5.709404920</period>
-			<radius errorminus="0.006" errorplus="0.007">0.151</radius>
 		</planet>
 	</star>
 </system>
