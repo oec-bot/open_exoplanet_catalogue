@@ -4,21 +4,31 @@
 	<declination>+45 12 16</declination>
 	<star>
 		<name>Kepler-1159</name>
-		<temperature errorminus="196.7" errorplus="147.7">6217.0</temperature>
-		<mass errorminus="0.11" errorplus="0.17">1.19</mass>
-		<radius errorminus="0.20" errorplus="0.56">1.28</radius>
-		<metallicity errorminus="0.15" errorplus="0.14">0.04</metallicity>
+		<radius errorminus="0.56" errorplus="-0.20">1.28</radius>
+		<mass errorminus="0.17" errorplus="-0.11">1.19</mass>
+		<magK>13.156</magK>
+		<magJ>13.473</magJ>
+		<magH>13.183</magH>
+		<metallicity errorminus="0.139" errorplus="-0.148">0.040</metallicity>
+		<age errorminus="1.080" errorplus="-1.070">2.750</age>
+		<temperature errorminus="147.74" errorplus="-196.66">6217.00</temperature>
 		<planet>
 			<name>Kepler-1159 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.080" errorplus="-1.070">2.750</age>
+			<magK>13.156</magK>
+			<magJ>13.473</magJ>
+			<magH>13.183</magH>
+			<metallicity errorminus="0.139" errorplus="-0.148">0.040</metallicity>
+			<radius errorminus="0.092" errorplus="-0.033">0.211</radius>
+			<transittime errorminus="0.0046200" errorplus="-0.0046200">0.1513800</transittime>
+			<period errorminus="0.00009541" errorplus="-0.00009541">22.70816791</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000095410" errorplus="0.000095410">22.708167910</period>
-			<radius errorminus="0.033" errorplus="0.092">0.211</radius>
 		</planet>
 	</star>
 </system>
