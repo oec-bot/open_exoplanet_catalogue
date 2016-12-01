@@ -4,21 +4,31 @@
 	<declination>+40 40 51</declination>
 	<star>
 		<name>Kepler-899</name>
-		<temperature errorminus="192.1" errorplus="270.6">5595.0</temperature>
-		<mass errorminus="0.07" errorplus="0.08">0.93</mass>
-		<radius errorminus="0.09" errorplus="0.15">0.91</radius>
-		<metallicity errorminus="0.18" errorplus="0.16">-0.06</metallicity>
+		<radius errorminus="0.15" errorplus="-0.09">0.91</radius>
+		<mass errorminus="0.08" errorplus="-0.07">0.93</mass>
+		<magK>13.615</magK>
+		<magJ>14.113</magJ>
+		<magH>13.725</magH>
+		<metallicity errorminus="0.158" errorplus="-0.178">-0.060</metallicity>
+		<age errorminus="4.880" errorplus="-2.440">4.070</age>
+		<temperature errorminus="270.58" errorplus="-192.07">5595.00</temperature>
 		<planet>
 			<name>Kepler-899 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.880" errorplus="-2.440">4.070</age>
+			<magK>13.615</magK>
+			<magJ>14.113</magJ>
+			<magH>13.725</magH>
+			<metallicity errorminus="0.158" errorplus="-0.178">-0.060</metallicity>
+			<radius errorminus="0.041" errorplus="-0.023">0.239</radius>
+			<transittime errorminus="0.0050000" errorplus="-0.0050000">0.2170000</transittime>
+			<period errorminus="0.00008075" errorplus="-0.00008075">19.17891293</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000080750" errorplus="0.000080750">19.178912930</period>
-			<radius errorminus="0.023" errorplus="0.041">0.239</radius>
 		</planet>
 	</star>
 </system>
