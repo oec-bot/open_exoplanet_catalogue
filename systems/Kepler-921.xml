@@ -4,21 +4,31 @@
 	<declination>+49 11 27</declination>
 	<star>
 		<name>Kepler-921</name>
-		<temperature errorminus="62.0" errorplus="70.0">5663.0</temperature>
-		<mass errorminus="0.06" errorplus="0.05">0.93</mass>
-		<radius errorminus="0.07" errorplus="0.10">0.91</radius>
-		<metallicity errorminus="0.20" errorplus="0.16">-0.12</metallicity>
+		<radius errorminus="0.10" errorplus="-0.07">0.91</radius>
+		<mass errorminus="0.05" errorplus="-0.06">0.93</mass>
+		<magK>13.188</magK>
+		<magJ>13.597</magJ>
+		<magH>13.184</magH>
+		<metallicity errorminus="0.161" errorplus="-0.195">-0.120</metallicity>
+		<age errorminus="4.600" errorplus="-2.600">4.270</age>
+		<temperature errorminus="69.96" errorplus="-61.96">5663.00</temperature>
 		<planet>
 			<name>Kepler-921 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.600" errorplus="-2.600">4.270</age>
+			<magK>13.188</magK>
+			<magJ>13.597</magJ>
+			<magH>13.184</magH>
+			<metallicity errorminus="0.161" errorplus="-0.195">-0.120</metallicity>
+			<radius errorminus="0.029" errorplus="-0.065">0.256</radius>
+			<transittime errorminus="0.0108800" errorplus="-0.0108800">0.2911300</transittime>
+			<period errorminus="0.00067280" errorplus="-0.00067280">51.30063400</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000672800" errorplus="0.000672800">51.300634000</period>
-			<radius errorminus="0.065" errorplus="0.029">0.256</radius>
 		</planet>
 	</star>
 </system>
