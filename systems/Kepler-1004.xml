@@ -4,21 +4,31 @@
 	<declination>+49 47 51</declination>
 	<star>
 		<name>Kepler-1004</name>
-		<temperature errorminus="39.5" errorplus="52.3">4972.0</temperature>
-		<mass errorminus="0.12" errorplus="0.18">1.11</mass>
-		<radius errorminus="0.22" errorplus="0.28">3.39</radius>
-		<metallicity errorminus="0.03" errorplus="0.02">-0.04</metallicity>
+		<radius errorminus="0.28" errorplus="-0.22">3.39</radius>
+		<mass errorminus="0.18" errorplus="-0.12">1.11</mass>
+		<magK>11.060</magK>
+		<magJ>11.700</magJ>
+		<magH>11.155</magH>
+		<metallicity errorminus="0.023" errorplus="-0.031">-0.040</metallicity>
+		<age errorminus="3.510" errorplus="-3.310">7.760</age>
+		<temperature errorminus="52.30" errorplus="-39.52">4972.00</temperature>
 		<planet>
 			<name>Kepler-1004 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.510" errorplus="-3.310">7.760</age>
+			<magK>11.060</magK>
+			<magJ>11.700</magJ>
+			<magH>11.155</magH>
+			<metallicity errorminus="0.023" errorplus="-0.031">-0.040</metallicity>
+			<radius errorminus="0.070" errorplus="-0.039">0.560</radius>
+			<transittime errorminus="0.0024200" errorplus="-0.0024200">0.3553300</transittime>
+			<period errorminus="0.00001198" errorplus="-0.00001198">5.28789787</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000011980" errorplus="0.000011980">5.287897870</period>
-			<radius errorminus="0.039" errorplus="0.070">0.560</radius>
 		</planet>
 	</star>
 </system>
