@@ -73,5 +73,21 @@
 			<spectraltype>M8</spectraltype>
 			<magV>18.8</magV>
 		</planet>
+		<planet>
+			<name>TRAPPIST-1 c</name>
+			<semimajoraxis errorminus="0.00055" errorplus="0.00055">0.01522</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.31" errorplus="0.31">89.5</inclination>
+			<impactparameter errorminus="0.15" errorplus="0.15">0.25</impactparameter>
+			<period errorminus="2.8e-05" errorplus="2.8e-05">2.421848</period>
+			<radius errorminus="0.0045" errorplus="0.0045">0.09359</radius>
+			<temperature>290.0</temperature>
+			<age>0.5</age>
+			<discoverymethod>Primary Transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/11/30</lastupdate>
+			<spectraltype>M8</spectraltype>
+			<magV>18.8</magV>
+		</planet>
 	</star>
 </system>
