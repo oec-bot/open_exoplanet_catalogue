@@ -4,21 +4,31 @@
 	<declination>+43 45 19</declination>
 	<star>
 		<name>Kepler-934</name>
-		<temperature errorminus="76.0" errorplus="68.2">5001.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.81</mass>
-		<radius errorminus="0.03" errorplus="0.04">0.77</radius>
-		<metallicity errorminus="0.16" errorplus="0.15">0.01</metallicity>
+		<radius errorminus="0.04" errorplus="-0.03">0.77</radius>
+		<mass errorminus="0.04" errorplus="-0.04">0.81</mass>
+		<magK>12.970</magK>
+		<magJ>13.549</magJ>
+		<magH>13.057</magH>
+		<metallicity errorminus="0.149" errorplus="-0.158">0.010</metallicity>
+		<age errorminus="6.150" errorplus="-2.660">4.470</age>
+		<temperature errorminus="68.25" errorplus="-76.01">5001.00</temperature>
 		<planet>
 			<name>Kepler-934 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="6.150" errorplus="-2.660">4.470</age>
+			<magK>12.970</magK>
+			<magJ>13.549</magJ>
+			<magH>13.057</magH>
+			<metallicity errorminus="0.149" errorplus="-0.158">0.010</metallicity>
+			<radius errorminus="0.013" errorplus="-0.010">0.186</radius>
+			<transittime errorminus="0.0050800" errorplus="-0.0050800">0.1585400</transittime>
+			<period errorminus="0.00028290" errorplus="-0.00028290">55.67383090</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000282900" errorplus="0.000282900">55.673830900</period>
-			<radius errorminus="0.010" errorplus="0.013">0.186</radius>
 		</planet>
 	</star>
 </system>
