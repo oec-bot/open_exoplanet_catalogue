@@ -4,21 +4,31 @@
 	<declination>+40 43 55</declination>
 	<star>
 		<name>Kepler-1125</name>
-		<temperature errorminus="131.5" errorplus="241.4">5683.0</temperature>
-		<mass errorminus="0.07" errorplus="0.08">0.95</mass>
-		<radius errorminus="0.09" errorplus="0.15">0.94</radius>
-		<metallicity errorminus="0.19" errorplus="0.16">-0.09</metallicity>
+		<radius errorminus="0.15" errorplus="-0.09">0.94</radius>
+		<mass errorminus="0.08" errorplus="-0.07">0.95</mass>
+		<magK>13.243</magK>
+		<magJ>13.694</magJ>
+		<magH>13.310</magH>
+		<metallicity errorminus="0.159" errorplus="-0.190">-0.090</metallicity>
+		<age errorminus="4.320" errorplus="-2.490">4.170</age>
+		<temperature errorminus="241.45" errorplus="-131.51">5683.00</temperature>
 		<planet>
 			<name>Kepler-1125 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.320" errorplus="-2.490">4.170</age>
+			<magK>13.243</magK>
+			<magJ>13.694</magJ>
+			<magH>13.310</magH>
+			<metallicity errorminus="0.159" errorplus="-0.190">-0.090</metallicity>
+			<radius errorminus="0.027" errorplus="-0.016">0.164</radius>
+			<transittime errorminus="0.0068300" errorplus="-0.0068300">0.2405000</transittime>
+			<period errorminus="0.00011760" errorplus="-0.00011760">17.67006420</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000117600" errorplus="0.000117600">17.670064200</period>
-			<radius errorminus="0.016" errorplus="0.027">0.164</radius>
 		</planet>
 	</star>
 </system>
