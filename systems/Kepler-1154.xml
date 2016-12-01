@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1154 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.280" errorplus="-0.780">2.290</age>
+			<magK>13.348</magK>
+			<magJ>13.706</magJ>
+			<magH>13.417</magH>
+			<metallicity errorminus="0.140" errorplus="-0.161">0.040</metallicity>
+			<radius errorminus="0.085" errorplus="-0.044">0.211</radius>
+			<transittime errorminus="0.0052900" errorplus="-0.0052900">0.1278300</transittime>
+			<period errorminus="0.00004757" errorplus="-0.00004757">8.45808312</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000047570" errorplus="0.000047570">8.458083120</period>
-			<radius errorminus="0.044" errorplus="0.085">0.211</radius>
 		</planet>
 	</star>
 </system>
