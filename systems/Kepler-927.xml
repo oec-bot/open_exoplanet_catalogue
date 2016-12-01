@@ -4,21 +4,31 @@
 	<declination>+41 23 34</declination>
 	<star>
 		<name>Kepler-927</name>
-		<temperature errorminus="106.0" errorplus="85.7">5743.0</temperature>
-		<mass errorminus="0.05" errorplus="0.05">0.99</mass>
-		<radius errorminus="0.08" errorplus="0.23">0.99</radius>
-		<metallicity errorminus="0.16" errorplus="0.13">0.03</metallicity>
+		<radius errorminus="0.23" errorplus="-0.08">0.99</radius>
+		<mass errorminus="0.05" errorplus="-0.05">0.99</mass>
+		<magK>13.032</magK>
+		<magJ>13.460</magJ>
+		<magH>13.137</magH>
+		<metallicity errorminus="0.131" errorplus="-0.160">0.030</metallicity>
+		<age errorminus="3.740" errorplus="-2.540">4.370</age>
+		<temperature errorminus="85.68" errorplus="-106.02">5743.00</temperature>
 		<planet>
 			<name>Kepler-927 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.740" errorplus="-2.540">4.370</age>
+			<magK>13.032</magK>
+			<magJ>13.460</magJ>
+			<magH>13.137</magH>
+			<metallicity errorminus="0.131" errorplus="-0.160">0.030</metallicity>
+			<radius errorminus="0.036" errorplus="-0.013">0.153</radius>
+			<transittime errorminus="0.0037130" errorplus="-0.0037130">0.1868830</transittime>
+			<period errorminus="0.00003533" errorplus="-0.00003533">9.11499030</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000035330" errorplus="0.000035330">9.114990300</period>
-			<radius errorminus="0.013" errorplus="0.036">0.153</radius>
 		</planet>
 	</star>
 </system>
