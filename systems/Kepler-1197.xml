@@ -4,21 +4,31 @@
 	<declination>+42 35 27</declination>
 	<star>
 		<name>Kepler-1197</name>
-		<temperature errorminus="50.9" errorplus="63.3">4708.0</temperature>
-		<mass errorminus="0.03" errorplus="0.02">0.78</mass>
-		<radius errorminus="0.01" errorplus="0.01">0.72</radius>
-		<metallicity errorminus="0.10" errorplus="0.10">0.06</metallicity>
+		<radius errorminus="0.01" errorplus="-0.01">0.72</radius>
+		<mass errorminus="0.02" errorplus="-0.03">0.78</mass>
+		<magK>12.814</magK>
+		<magJ>13.470</magJ>
+		<magH>12.910</magH>
+		<metallicity errorminus="0.099" errorplus="-0.097">0.060</metallicity>
+		<age errorminus="2.340" errorplus="-1.090">2.690</age>
+		<temperature errorminus="63.31" errorplus="-50.89">4708.00</temperature>
 		<planet>
 			<name>Kepler-1197 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.340" errorplus="-1.090">2.690</age>
+			<magK>12.814</magK>
+			<magJ>13.470</magJ>
+			<magH>12.910</magH>
+			<metallicity errorminus="0.099" errorplus="-0.097">0.060</metallicity>
+			<radius errorminus="0.003" errorplus="-0.008">0.112</radius>
+			<transittime errorminus="0.0022630" errorplus="-0.0022630">0.0467250</transittime>
+			<period errorminus="0.00000375" errorplus="-0.00000375">2.03231845</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000003750" errorplus="0.000003750">2.032318450</period>
-			<radius errorminus="0.008" errorplus="0.003">0.112</radius>
 		</planet>
 	</star>
 </system>
