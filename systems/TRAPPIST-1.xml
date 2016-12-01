@@ -88,19 +88,27 @@
 		</planet>
 		<planet>
 			<name>TRAPPIST-1 c</name>
-			<semimajoraxis errorminus="0.00055" errorplus="0.00055">0.01522</semimajoraxis>
-			<eccentricity>0.0</eccentricity>
-			<inclination errorminus="0.31" errorplus="0.31">89.5</inclination>
-			<impactparameter errorminus="0.15" errorplus="0.15">0.25</impactparameter>
-			<period errorminus="2.8e-05" errorplus="2.8e-05">2.421848</period>
-			<radius errorminus="0.0045" errorplus="0.0045">0.09359</radius>
-			<temperature>290.0</temperature>
-			<age>0.5</age>
-			<discoverymethod>Primary Transit</discoverymethod>
+			<eccentricity>0.000000</eccentricity>
+			<semimajoraxis errorminus="-0.000550" errorplus="0.000550">0.015220</semimajoraxis>
+			<magR>16.470</magR>
+			<magK>10.296</magK>
+			<magJ>11.354</magJ>
+			<magI>14.000</magI>
+			<magH>10.718</magH>
+			<metallicity errorminus="0.080" errorplus="-0.080">0.040</metallicity>
+			<istransiting>1</istransiting>
+			<temperature errorminus="8" errorplus="-8">342</temperature>
+			<radius errorminus="0.004" errorplus="-0.004">0.094</radius>
+			<transittime errorminus="0.0005625" errorplus="-0.0005625">0.0290125</transittime>
+			<period errorminus="0.00002800" errorplus="-0.00002800">2.42184800</period>
+			<impactparameter errorminus="0.1500" errorplus="-0.1500">0.2500</impactparameter>
+			<inclination errorminus="0.310" errorplus="-0.310">89.500</inclination>
+			<age>0.500</age>
+			<discoverymethod>Transit</discoverymethod>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/11/30</lastupdate>
 			<spectraltype>M8</spectraltype>
-			<magV>18.8</magV>
+			<magV>18.800</magV>
 		</planet>
 		<planet>
 			<name>TRAPPIST-1 d</name>
