@@ -4,21 +4,31 @@
 	<declination>+43 08 05</declination>
 	<star>
 		<name>Kepler-854</name>
-		<temperature errorminus="142.2" errorplus="110.4">6179.0</temperature>
-		<mass errorminus="0.09" errorplus="0.17">1.17</mass>
-		<radius errorminus="0.17" errorplus="0.51">1.27</radius>
-		<metallicity errorminus="0.15" errorplus="0.13">0.04</metallicity>
+		<radius errorminus="0.51" errorplus="-0.17">1.27</radius>
+		<mass errorminus="0.17" errorplus="-0.09">1.17</mass>
+		<magK>12.046</magK>
+		<magJ>12.378</magJ>
+		<magH>12.106</magH>
+		<metallicity errorminus="0.130" errorplus="-0.148">0.040</metallicity>
+		<age errorminus="1.060" errorplus="-1.230">3.020</age>
+		<temperature errorminus="110.41" errorplus="-142.15">6179.00</temperature>
 		<planet>
 			<name>Kepler-854 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.060" errorplus="-1.230">3.020</age>
+			<magK>12.046</magK>
+			<magJ>12.378</magJ>
+			<magH>12.106</magH>
+			<metallicity errorminus="0.130" errorplus="-0.148">0.040</metallicity>
+			<radius errorminus="0.604" errorplus="-0.204">1.492</radius>
+			<transittime errorminus="0.0010540" errorplus="-0.0010540">0.1626170</transittime>
+			<period errorminus="0.00000068" errorplus="-0.00000068">2.14463285</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000000680" errorplus="0.000000680">2.144632850</period>
-			<radius errorminus="0.204" errorplus="0.604">1.492</radius>
 		</planet>
 	</star>
 </system>
