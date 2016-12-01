@@ -4,21 +4,31 @@
 	<declination>+49 40 59</declination>
 	<star>
 		<name>Kepler-1041</name>
-		<temperature errorminus="105.2" errorplus="107.7">5957.0</temperature>
-		<mass errorminus="0.07" errorplus="0.07">1.06</mass>
-		<radius errorminus="0.11" errorplus="0.23">1.08</radius>
-		<metallicity errorminus="0.17" errorplus="0.14">0.01</metallicity>
+		<radius errorminus="0.23" errorplus="-0.11">1.08</radius>
+		<mass errorminus="0.07" errorplus="-0.07">1.06</mass>
+		<magK>13.034</magK>
+		<magJ>13.405</magJ>
+		<magH>13.096</magH>
+		<metallicity errorminus="0.136" errorplus="-0.175">0.010</metallicity>
+		<age errorminus="2.250" errorplus="-1.880">3.550</age>
+		<temperature errorminus="107.73" errorplus="-105.23">5957.00</temperature>
 		<planet>
 			<name>Kepler-1041 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.250" errorplus="-1.880">3.550</age>
+			<magK>13.034</magK>
+			<magJ>13.405</magJ>
+			<magH>13.096</magH>
+			<metallicity errorminus="0.136" errorplus="-0.175">0.010</metallicity>
+			<radius errorminus="0.055" errorplus="-0.047">0.262</radius>
+			<transittime errorminus="0.0087100" errorplus="-0.0087100">0.3067100</transittime>
+			<period errorminus="0.00011120" errorplus="-0.00011120">24.75764210</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000111200" errorplus="0.000111200">24.757642100</period>
-			<radius errorminus="0.047" errorplus="0.055">0.262</radius>
 		</planet>
 	</star>
 </system>
