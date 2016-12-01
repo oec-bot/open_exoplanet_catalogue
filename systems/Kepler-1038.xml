@@ -4,21 +4,31 @@
 	<declination>+44 07 57</declination>
 	<star>
 		<name>Kepler-1038</name>
-		<temperature errorminus="212.9" errorplus="253.3">5335.0</temperature>
-		<mass errorminus="0.06" errorplus="0.07">0.87</mass>
-		<radius errorminus="0.06" errorplus="0.09">0.83</radius>
-		<metallicity errorminus="0.18" errorplus="0.16">-0.04</metallicity>
+		<radius errorminus="0.09" errorplus="-0.06">0.83</radius>
+		<mass errorminus="0.07" errorplus="-0.06">0.87</mass>
+		<magK>12.782</magK>
+		<magJ>13.376</magJ>
+		<magH>12.923</magH>
+		<metallicity errorminus="0.158" errorplus="-0.176">-0.040</metallicity>
+		<age errorminus="5.420" errorplus="-2.570">4.270</age>
+		<temperature errorminus="253.32" errorplus="-212.93">5335.00</temperature>
 		<planet>
 			<name>Kepler-1038 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.420" errorplus="-2.570">4.270</age>
+			<magK>12.782</magK>
+			<magJ>13.376</magJ>
+			<magH>12.923</magH>
+			<metallicity errorminus="0.158" errorplus="-0.176">-0.040</metallicity>
+			<radius errorminus="0.046" errorplus="-0.035">0.315</radius>
+			<transittime errorminus="0.0055800" errorplus="-0.0055800">0.2250800</transittime>
+			<period errorminus="0.00068940" errorplus="-0.00068940">148.46033820</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000689400" errorplus="0.000689400">148.460338200</period>
-			<radius errorminus="0.035" errorplus="0.046">0.315</radius>
 		</planet>
 	</star>
 </system>
