@@ -8,30 +8,40 @@
 		<name>2MASS J23541409-3000467</name>
 		<name>GSC 07516-00867</name>
 		<magB errorminus="0.060" errorplus="0.060">14.477</magB>
+		<metallicity errorminus="0.050" errorplus="-0.050">-0.100</metallicity>
+		<age errorminus="1.800" errorplus="-1.800">9.500</age>
+		<temperature errorminus="79.00" errorplus="-79.00">5738.00</temperature>
+		<radius errorminus="0.10" errorplus="-0.13">1.24</radius>
+		<mass errorminus="0.04" errorplus="-0.04">0.97</mass>
 		<magV errorminus="0.020" errorplus="0.020">13.834</magV>
 		<magJ errorminus="0.024" errorplus="0.024">12.652</magJ>
 		<magH errorminus="0.025" errorplus="0.025">12.335</magH>
 		<magK errorminus="0.021" errorplus="0.021">12.280</magK>
-		<mass errorminus="0.035" errorplus="0.035">0.970</mass>
-		<radius errorminus="0.127" errorplus="0.097">1.238</radius>
-		<temperature errorminus="79" errorplus="79">5738</temperature>
-		<metallicity errorminus="0.050" errorplus="0.050">0.100</metallicity>
-		<age errorminus="1.8" errorplus="1.8">9.5</age>
-		<spectraltype>G3V</spectraltype>
+		<spectraltype>G3 V</spectraltype>
 		<planet>
 			<name>HATS-16 b</name>
-			<period errorminus="0.000011" errorplus="0.000011">2.686502</period>
-			<transittime errorminus="0.00076" errorplus="0.00076" unit="BJD">2456824.79069</transittime>
-			<inclination errorminus="0.86" errorplus="1.37">83.53</inclination>
-			<eccentricity upperlimit="0.000" />
-			<mass errorminus="0.19" errorplus="0.19">3.27</mass>
-			<radius errorminus="0.15" errorplus="0.15">1.30</radius>
-			<semimajoraxis errorminus="0.00045" errorplus="0.00045">0.03744</semimajoraxis>
+			<impactparameter errorminus="0.0430" errorplus="-0.0910">0.7320</impactparameter>
+			<inclination errorminus="1.370" errorplus="-0.860">83.530</inclination>
+			<magV>13.834</magV>
+			<magK>12.280</magK>
+			<magJ>12.652</magJ>
+			<magH>12.335</magH>
+			<magB>14.477</magB>
+			<spectraltype>G3 V</spectraltype>
+			<metallicity errorminus="0.050" errorplus="-0.050">-0.100</metallicity>
+			<age errorminus="1.800" errorplus="-1.800">9.500</age>
+			<temperature errorminus="61" errorplus="-82">1592</temperature>
+			<radius errorminus="0.150" errorplus="-0.150">1.300</radius>
+			<mass errorminus="0.19000" errorplus="-0.19000">3.27000</mass>
+			<transittime errorminus="0.0032000" errorplus="-0.0032000">0.1092000</transittime>
+			<period errorminus="0.00001100" errorplus="-0.00001100">2.68650200</period>
+			<semimajoraxis errorminus="-0.000450" errorplus="0.000450">0.037440</semimajoraxis>
+			<eccentricity upperlimit="0.000">0.000000</eccentricity>
 			<istransiting>1</istransiting>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>HATS-16b is a massive planet transiting a G3V star.</description>
-			<lastupdate>15/11/26</lastupdate>
+			<lastupdate>16/12/01</lastupdate>
 			<list>Confirmed planets</list>
 		</planet>
 	</star>
