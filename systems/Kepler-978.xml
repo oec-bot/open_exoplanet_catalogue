@@ -4,21 +4,31 @@
 	<declination>+43 02 36</declination>
 	<star>
 		<name>Kepler-978</name>
-		<temperature errorminus="84.9" errorplus="82.0">6002.0</temperature>
-		<mass errorminus="0.07" errorplus="0.08">1.07</mass>
-		<radius errorminus="0.12" errorplus="0.25">1.09</radius>
-		<metallicity errorminus="0.19" errorplus="0.14">-0.01</metallicity>
+		<radius errorminus="0.25" errorplus="-0.12">1.09</radius>
+		<mass errorminus="0.08" errorplus="-0.07">1.07</mass>
+		<magK>12.011</magK>
+		<magJ>12.363</magJ>
+		<magH>12.075</magH>
+		<metallicity errorminus="0.145" errorplus="-0.193">-0.010</metallicity>
+		<age errorminus="1.790" errorplus="-1.900">3.630</age>
+		<temperature errorminus="81.98" errorplus="-84.89">6002.00</temperature>
 		<planet>
 			<name>Kepler-978 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.790" errorplus="-1.900">3.630</age>
+			<magK>12.011</magK>
+			<magJ>12.363</magJ>
+			<magH>12.075</magH>
+			<metallicity errorminus="0.145" errorplus="-0.193">-0.010</metallicity>
+			<radius errorminus="0.060" errorplus="-0.051">0.267</radius>
+			<transittime errorminus="0.0118700" errorplus="-0.0118700">0.2955400</transittime>
+			<period errorminus="0.00017100" errorplus="-0.00017100">49.62215090</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000171000" errorplus="0.000171000">49.622150900</period>
-			<radius errorminus="0.051" errorplus="0.060">0.267</radius>
 		</planet>
 	</star>
 </system>
