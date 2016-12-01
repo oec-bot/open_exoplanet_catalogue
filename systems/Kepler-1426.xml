@@ -4,21 +4,31 @@
 	<declination>+49 25 01</declination>
 	<star>
 		<name>Kepler-1426</name>
-		<temperature errorminus="107.4" errorplus="81.8">5831.0</temperature>
-		<mass errorminus="0.06" errorplus="0.06">1.02</mass>
-		<radius errorminus="0.09" errorplus="0.21">1.02</radius>
-		<metallicity errorminus="0.17" errorplus="0.14">0.03</metallicity>
+		<radius errorminus="0.21" errorplus="-0.09">1.02</radius>
+		<mass errorminus="0.06" errorplus="-0.06">1.02</mass>
+		<magK>13.645</magK>
+		<magJ>14.032</magJ>
+		<magH>13.734</magH>
+		<metallicity errorminus="0.139" errorplus="-0.167">0.030</metallicity>
+		<age errorminus="2.890" errorplus="-2.270">4.070</age>
+		<temperature errorminus="81.81" errorplus="-107.42">5831.00</temperature>
 		<planet>
 			<name>Kepler-1426 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.890" errorplus="-2.270">4.070</age>
+			<magK>13.645</magK>
+			<magJ>14.032</magJ>
+			<magH>13.734</magH>
+			<metallicity errorminus="0.139" errorplus="-0.167">0.030</metallicity>
+			<radius errorminus="0.029" errorplus="-0.015">0.139</radius>
+			<transittime errorminus="0.0134200" errorplus="-0.0134200">0.1828800</transittime>
+			<period errorminus="0.00019400" errorplus="-0.00019400">14.25632270</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000194000" errorplus="0.000194000">14.256322700</period>
-			<radius errorminus="0.015" errorplus="0.029">0.139</radius>
 		</planet>
 	</star>
 </system>
