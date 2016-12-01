@@ -4,21 +4,31 @@
 	<declination>+49 44 14</declination>
 	<star>
 		<name>Kepler-885</name>
-		<temperature errorminus="58.4" errorplus="71.2">6187.0</temperature>
-		<mass errorminus="0.05" errorplus="0.07">1.21</mass>
-		<radius errorminus="0.14" errorplus="0.21">1.35</radius>
-		<metallicity errorminus="0.08" errorplus="0.08">0.11</metallicity>
+		<radius errorminus="0.21" errorplus="-0.14">1.35</radius>
+		<mass errorminus="0.07" errorplus="-0.05">1.21</mass>
+		<magK>11.535</magK>
+		<magJ>11.833</magJ>
+		<magH>11.633</magH>
+		<metallicity errorminus="0.083" errorplus="-0.080">0.110</metallicity>
+		<age errorminus="0.620" errorplus="-1.100">3.160</age>
+		<temperature errorminus="71.23" errorplus="-58.44">6187.00</temperature>
 		<planet>
 			<name>Kepler-885 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="0.620" errorplus="-1.100">3.160</age>
+			<magK>11.535</magK>
+			<magJ>11.833</magJ>
+			<magH>11.633</magH>
+			<metallicity errorminus="0.083" errorplus="-0.080">0.110</metallicity>
+			<radius errorminus="0.036" errorplus="-0.035">0.223</radius>
+			<transittime errorminus="0.0033710" errorplus="-0.0033710">0.2177870</transittime>
+			<period errorminus="0.00005308" errorplus="-0.00005308">18.11472949</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000053080" errorplus="0.000053080">18.114729490</period>
-			<radius errorminus="0.035" errorplus="0.036">0.223</radius>
 		</planet>
 	</star>
 </system>
