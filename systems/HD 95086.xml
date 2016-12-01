@@ -8,6 +8,8 @@
 	<distance>90.27</distance>
 	<star>
 		<magB errorminus="0.01" errorplus="0.01">7.60</magB>
+		<age errorminus="0.004" errorplus="0.004">0.017</age>
+		<temperature errorminus="100" errorplus="100">7550</temperature>
 		<magV errorminus="0.01" errorplus="0.01">7.36</magV>
 		<magJ errorminus="0.019" errorplus="0.019">6.906</magJ>
 		<magH errorminus="0.047" errorplus="0.047">6.867</magH>
@@ -18,15 +20,20 @@
 		<name>TYC 9212-4675-1</name>
 		<mass>1.6</mass>
 		<spectraltype>A8III</spectraltype>
-		<age errorminus="0.004" errorplus="0.0035">0.017</age>
 		<planet>
 			<name>HD 95086 b</name>
 			<name>HIP 53524 b</name>
 			<name>2MASS J10570301-6840023 b</name>
 			<name>TYC 9212-4675-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="2" errorplus="2">5</mass>
-			<temperature errorminus="200" errorplus="200">1000</temperature>
+			<inclination errorminus="13.5" errorplus="9.7">153</inclination>
+			<eccentricity errorminus="0.2" errorplus="0">0.2</eccentricity>
+			<magV>7.36</magV>
+			<spectraltype>A8III</spectraltype>
+			<age errorminus="0.004" errorplus="0.004">0.017</age>
+			<mass errorminus="0.8" errorplus="0.8">4.4</mass>
+			<semimajoraxis errorminus="8.4" errorplus="20.7">61.7</semimajoraxis>
+			<temperature errorminus="200" errorplus="200">1050</temperature>
 			<separation errorminus="0.0074" errorplus="0.0074" unit="arcsec">0.6239</separation>
 			<separation errorminus="0.7" errorplus="0.7" unit="AU">56.4</separation>
 			<positionangle errorminus="0.8" errorplus="0.8">151.8</positionangle>
@@ -39,8 +46,8 @@ The blue circle is the size of the orbit of Neptune in the Solar System.
 The star HD 95086 has similar properties to Beta Pictoris and HR 8799 around which giant planets have previously been imaged at separations between 8 and 68 astronomical units. These stars are all young, more massive than the Sun, and surrounded by a debris disc.
 			
 Credit: ESO/J. Rameau</imagedescription>
-			<discoverymethod>imaging</discoverymethod>
-			<lastupdate>13/10/28</lastupdate>
+			<discoverymethod>Imaging</discoverymethod>
+			<lastupdate>16/12/01</lastupdate>
 			<discoveryyear>2013</discoveryyear>
 		</planet>
 	</star>
