@@ -8,13 +8,13 @@
 		<name>2MASS 07102406-3905506</name>
 		<name>TYC 7630-352-1</name>
 		<spectraltype>F6 V</spectraltype>
-		<age errorminus="1.0" errorplus="1.0">1.5</age>
-		<temperature errorminus="140" errorplus="140">6459</temperature>
-		<metallicity errorminus="0.09" errorplus="0.09">0.13</metallicity>
-		<mass errorminus="0.079" errorplus="0.080">1.353</mass>
-		<radius errorminus="0.030" errorplus="0.030">1.458</radius>
+		<metallicity errorminus="0.090" errorplus="-0.090">0.130</metallicity>
+		<age errorminus="1.000" errorplus="-1.000">1.500</age>
+		<temperature errorminus="140.00" errorplus="-140.00">6459.00</temperature>
+		<radius errorminus="0.03" errorplus="-0.03">1.46</radius>
+		<mass errorminus="0.08" errorplus="-0.08">1.35</mass>
 		<magB errorminus="0.05" errorplus="0.05">11.00</magB>
-		<magV errorminus="0.04" errorplus="0.04">10.51</magV>
+		<magV errorminus="0.04" errorplus="0.04">10.440</magV>
 		<magJ errorminus="0.021" errorplus="0.021">9.625</magJ>
 		<magH errorminus="0.025" errorplus="0.025">9.439</magH>
 		<magK errorminus="0.022" errorplus="0.022">9.374</magK>
@@ -23,16 +23,25 @@
 			<name>2MASS 07102406-3905506 b</name>
 			<name>TYC 7630-352-1 b</name>
 			<list>Confirmed planets</list>
-			<mass errorminus="0.062" errorplus="0.064">1.183</mass>
-			<radius errorminus="0.039" errorplus="0.039">1.807</radius>
-			<semimajoraxis errorminus="0.00050" errorplus="0.00049">0.02544</semimajoraxis>
-			<period errorminus="0.00000025" errorplus="0.00000020">1.2749255</period>
-			<transittime errorminus="0.00010" errorplus="0.00011" unit="HJD">2456636.34578</transittime>
-			<inclination errorminus="0.6" errorplus="0.6">87.6</inclination>
-			<temperature errorminus="52" errorplus="52">2358</temperature>
+			<transittime errorminus="0.0003000" errorplus="-0.0003000">0.1203000</transittime>
+			<period errorminus="0.00000020" errorplus="-0.00000025">1.27492550</period>
+			<magV>10.440</magV>
+			<magK>9.374</magK>
+			<magJ>9.625</magJ>
+			<magH>9.439</magH>
+			<spectraltype>F6 V</spectraltype>
+			<metallicity errorminus="0.090" errorplus="-0.090">0.130</metallicity>
+			<age errorminus="1.000" errorplus="-1.000">1.500</age>
+			<temperature errorminus="52" errorplus="-52">2358</temperature>
+			<radius errorminus="0.044" errorplus="-0.044">1.865</radius>
+			<mass errorminus="0.06400" errorplus="-0.06200">1.18300</mass>
+			<impactparameter errorminus="0.0400" errorplus="-0.0420">0.1600</impactparameter>
+			<inclination errorminus="0.600" errorplus="-0.600">87.600</inclination>
+			<eccentricity>0.000000</eccentricity>
+			<semimajoraxis errorminus="-0.000500" errorplus="0.000490">0.025440</semimajoraxis>
 			<description>This planet is a remarkable short-period transiting hot Jupiter discovered by the WASP-South survey in close collaboration with the Euler TRAPPIST telescopes.</description>
-			<discoverymethod>transit</discoverymethod>
-			<lastupdate>15/06/08</lastupdate>
+			<discoverymethod>Transit</discoverymethod>
+			<lastupdate>16/12/01</lastupdate>
 			<discoveryyear>2015</discoveryyear>
 			<istransiting>1</istransiting>
 		</planet>
