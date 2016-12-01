@@ -55,11 +55,15 @@
 			<name>EPIC 203826436 d</name>
 			<transittime errorminus="0.0031" errorplus="0.0031" unit="BJD">2456907.2315</transittime>
 			<period errorminus="0.00135" errorplus="0.00135">14.09189</period>
+			<magV>12.52</magV>
+			<magK>12.24</magK>
+			<spectraltype>G3V</spectraltype>
+			<metallicity errorminus="0.04" errorplus="0.04">-0.03</metallicity>
 			<inclination errorminus="1.65" errorplus="1.18">88.34</inclination>
 			<radius errorminus="0.032" errorplus="0.032">0.244</radius>
 			<semimajoraxis errorminus="0.0018" errorplus="0.0018">0.1103</semimajoraxis>
 			<istransiting>1</istransiting>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Primary Transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<description>EPIC 203826436 is a multi-transiting system in the K2 mission campaign 2 field.</description>
 			<lastupdate>15/12/06</lastupdate>
