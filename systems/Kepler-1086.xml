@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1086 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.260" errorplus="-1.360">2.880</age>
+			<magK>12.941</magK>
+			<magJ>13.691</magJ>
+			<magH>13.067</magH>
+			<metallicity errorminus="0.094" errorplus="-0.129">0.060</metallicity>
+			<radius errorminus="0.010" errorplus="-0.012">0.262</radius>
+			<transittime errorminus="0.0060000" errorplus="-0.0060000">0.2690000</transittime>
+			<period errorminus="0.00086290" errorplus="-0.00086290">161.51633450</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000862900" errorplus="0.000862900">161.516334500</period>
-			<radius errorminus="0.012" errorplus="0.010">0.262</radius>
 		</planet>
 	</star>
 </system>
