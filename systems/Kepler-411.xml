@@ -4,21 +4,29 @@
 	<declination>+49 31 24</declination>
 	<star>
 		<name>Kepler-411</name>
-		<temperature errorminus="51.1" errorplus="48.1">4906.0</temperature>
-		<mass errorminus="0.03" errorplus="0.02">0.81</mass>
-		<radius errorminus="0.01" errorplus="0.01">0.75</radius>
-		<metallicity errorminus="0.10" errorplus="0.11">0.05</metallicity>
+		<radius errorminus="0.07" errorplus="-0.06">0.79</radius>
+		<mass errorminus="0.04" errorplus="-0.10">0.83</mass>
+		<magK>10.062</magK>
+		<magJ>10.641</magJ>
+		<magH>10.161</magH>
+		<metallicity errorminus="0.370" errorplus="-0.480">0.230</metallicity>
+		<temperature errorminus="46.00" errorplus="-51.00">4974.00</temperature>
 		<planet>
 			<name>Kepler-411 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<radius errorminus="0.011" errorplus="-0.006">0.292</radius>
+			<magK>10.062</magK>
+			<magJ>10.641</magJ>
+			<magH>10.161</magH>
+			<metallicity errorminus="0.370" errorplus="-0.480">0.230</metallicity>
+			<transittime errorminus="0.0012000" errorplus="-0.0012000">0.1160670</transittime>
+			<period errorminus="0.00000298" errorplus="-0.00000298">7.83442788</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000002980" errorplus="0.000002980">7.834427880</period>
-			<radius errorminus="0.006" errorplus="0.011">0.292</radius>
 		</planet>
 	</star>
 </system>
