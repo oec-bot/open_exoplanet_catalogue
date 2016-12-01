@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-953 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.260" errorplus="-4.950">8.710</age>
+			<magK>10.295</magK>
+			<magJ>10.770</magJ>
+			<magH>10.395</magH>
+			<metallicity errorminus="0.068" errorplus="-0.065">0.260</metallicity>
+			<radius errorminus="0.010" errorplus="-0.008">0.106</radius>
+			<transittime errorminus="0.0027460" errorplus="-0.0027460">0.2209210</transittime>
+			<period errorminus="0.00002528" errorplus="-0.00002528">9.10967112</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000025280" errorplus="0.000025280">9.109671120</period>
-			<radius errorminus="0.008" errorplus="0.010">0.106</radius>
 		</planet>
 	</star>
 </system>
