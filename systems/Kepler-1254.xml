@@ -50,15 +50,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1254 d</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.650" errorplus="-3.300">5.620</age>
+			<magK>13.292</magK>
+			<magJ>13.866</magJ>
+			<magH>13.288</magH>
+			<metallicity errorminus="0.149" errorplus="-0.203">-0.100</metallicity>
+			<radius errorminus="0.008" errorplus="-0.010">0.117</radius>
+			<transittime errorminus="0.0055400" errorplus="-0.0055400">0.0907100</transittime>
+			<period errorminus="0.00002908" errorplus="-0.00002908">5.72717226</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000029080" errorplus="0.000029080">5.727172260</period>
-			<radius errorminus="0.010" errorplus="0.008">0.117</radius>
 		</planet>
 	</star>
 </system>
