@@ -4,21 +4,31 @@
 	<declination>+46 19 14</declination>
 	<star>
 		<name>Kepler-864</name>
-		<temperature errorminus="63.4" errorplus="66.1">5754.0</temperature>
-		<mass errorminus="0.05" errorplus="0.05">1.00</mass>
-		<radius errorminus="0.09" errorplus="0.26">1.00</radius>
-		<metallicity errorminus="0.18" errorplus="0.14">0.04</metallicity>
+		<radius errorminus="0.26" errorplus="-0.09">1.00</radius>
+		<mass errorminus="0.05" errorplus="-0.05">1.00</mass>
+		<magK>14.218</magK>
+		<magJ>14.676</magJ>
+		<magH>14.384</magH>
+		<metallicity errorminus="0.136" errorplus="-0.177">0.040</metallicity>
+		<age errorminus="3.430" errorplus="-2.870">4.680</age>
+		<temperature errorminus="66.12" errorplus="-63.35">5754.00</temperature>
 		<planet>
 			<name>Kepler-864 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.430" errorplus="-2.870">4.680</age>
+			<magK>14.218</magK>
+			<magJ>14.676</magJ>
+			<magH>14.384</magH>
+			<metallicity errorminus="0.136" errorplus="-0.177">0.040</metallicity>
+			<radius errorminus="0.056" errorplus="-0.020">0.214</radius>
+			<transittime errorminus="0.0036420" errorplus="-0.0036420">0.1607870</transittime>
+			<period errorminus="0.00001891" errorplus="-0.00001891">5.83376092</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000018910" errorplus="0.000018910">5.833760920</period>
-			<radius errorminus="0.020" errorplus="0.056">0.214</radius>
 		</planet>
 	</star>
 </system>
