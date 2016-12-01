@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1129 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.040" errorplus="-2.330">4.070</age>
+			<magK>13.783</magK>
+			<magJ>14.173</magJ>
+			<magH>13.804</magH>
+			<metallicity errorminus="0.147" errorplus="-0.187">-0.040</metallicity>
+			<radius errorminus="0.041" errorplus="-0.024">0.244</radius>
+			<transittime errorminus="0.0072500" errorplus="-0.0072500">0.2372100</transittime>
+			<period errorminus="0.00075860" errorplus="-0.00075860">76.53695860</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000758600" errorplus="0.000758600">76.536958600</period>
-			<radius errorminus="0.024" errorplus="0.041">0.244</radius>
 		</planet>
 	</star>
 </system>
