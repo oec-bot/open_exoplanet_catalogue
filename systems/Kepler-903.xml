@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-903 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.000" errorplus="-3.000">4.790</age>
+			<magK>12.993</magK>
+			<magJ>13.385</magJ>
+			<magH>13.065</magH>
+			<metallicity errorminus="0.144" errorplus="-0.156">0.050</metallicity>
+			<radius errorminus="0.036" errorplus="-0.040">0.226</radius>
+			<transittime errorminus="0.0172100" errorplus="-0.0172100">0.4707500</transittime>
+			<period errorminus="0.00073530" errorplus="-0.00073530">62.92285570</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000735300" errorplus="0.000735300">62.922855700</period>
-			<radius errorminus="0.040" errorplus="0.036">0.226</radius>
 		</planet>
 	</star>
 </system>
