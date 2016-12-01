@@ -4,21 +4,31 @@
 	<declination>+49 12 31</declination>
 	<star>
 		<name>Kepler-998</name>
-		<temperature errorminus="165.4" errorplus="104.5">6058.0</temperature>
-		<mass errorminus="0.08" errorplus="0.10">1.12</mass>
-		<radius errorminus="0.15" errorplus="0.31">1.18</radius>
-		<metallicity errorminus="0.15" errorplus="0.14">0.07</metallicity>
+		<radius errorminus="0.31" errorplus="-0.15">1.18</radius>
+		<mass errorminus="0.10" errorplus="-0.08">1.12</mass>
+		<magK>12.888</magK>
+		<magJ>13.229</magJ>
+		<magH>12.943</magH>
+		<metallicity errorminus="0.142" errorplus="-0.149">0.070</metallicity>
+		<age errorminus="1.550" errorplus="-1.530">3.310</age>
+		<temperature errorminus="104.50" errorplus="-165.40">6058.00</temperature>
 		<planet>
 			<name>Kepler-998 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.550" errorplus="-1.530">3.310</age>
+			<magK>12.888</magK>
+			<magJ>13.229</magJ>
+			<magH>12.943</magH>
+			<metallicity errorminus="0.142" errorplus="-0.149">0.070</metallicity>
+			<radius errorminus="0.054" errorplus="-0.027">0.207</radius>
+			<transittime errorminus="0.0020420" errorplus="-0.0020420">0.0817170</transittime>
+			<period errorminus="0.00001059" errorplus="-0.00001059">5.65377733</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000010590" errorplus="0.000010590">5.653777330</period>
-			<radius errorminus="0.027" errorplus="0.054">0.207</radius>
 		</planet>
 	</star>
 </system>
