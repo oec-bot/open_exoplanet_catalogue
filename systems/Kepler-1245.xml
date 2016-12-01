@@ -4,21 +4,31 @@
 	<declination>+43 15 39</declination>
 	<star>
 		<name>Kepler-1245</name>
-		<temperature errorminus="102.0" errorplus="77.5">5306.0</temperature>
-		<mass errorminus="0.04" errorplus="0.04">0.86</mass>
-		<radius errorminus="0.05" errorplus="0.06">0.83</radius>
-		<metallicity errorminus="0.16" errorplus="0.14">-0.01</metallicity>
+		<radius errorminus="0.06" errorplus="-0.05">0.83</radius>
+		<mass errorminus="0.04" errorplus="-0.04">0.86</mass>
+		<magK>13.519</magK>
+		<magJ>14.001</magJ>
+		<magH>13.570</magH>
+		<metallicity errorminus="0.143" errorplus="-0.160">-0.010</metallicity>
+		<age errorminus="6.270" errorplus="-2.810">4.570</age>
+		<temperature errorminus="77.49" errorplus="-101.98">5306.00</temperature>
 		<planet>
 			<name>Kepler-1245 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="6.270" errorplus="-2.810">4.570</age>
+			<magK>13.519</magK>
+			<magJ>14.001</magJ>
+			<magH>13.570</magH>
+			<metallicity errorminus="0.143" errorplus="-0.160">-0.010</metallicity>
+			<radius errorminus="0.011" errorplus="-0.009">0.128</radius>
+			<transittime errorminus="0.0042500" errorplus="-0.0042500">0.0963800</transittime>
+			<period errorminus="0.00001933" errorplus="-0.00001933">4.35409304</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000019330" errorplus="0.000019330">4.354093040</period>
-			<radius errorminus="0.009" errorplus="0.011">0.128</radius>
 		</planet>
 		<planet>
 			<name>Kepler-1245 c</name>
