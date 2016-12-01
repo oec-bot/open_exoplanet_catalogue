@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-937 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.270" errorplus="-1.420">3.240</age>
+			<magK>13.681</magK>
+			<magJ>14.025</magJ>
+			<magH>13.764</magH>
+			<metallicity errorminus="0.143" errorplus="-0.145">0.080</metallicity>
+			<radius errorminus="0.081" errorplus="-0.035">0.238</radius>
+			<transittime errorminus="0.0250800" errorplus="-0.0250800">0.4464600</transittime>
+			<period errorminus="0.00328700" errorplus="-0.00328700">153.34336400</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.003287000" errorplus="0.003287000">153.343364000</period>
-			<radius errorminus="0.035" errorplus="0.081">0.238</radius>
 		</planet>
 	</star>
 </system>
