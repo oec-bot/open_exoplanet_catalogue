@@ -12,7 +12,7 @@
 		<magV>18.8</magV>
 		<metallicity errorminus="0.08" errorplus="0.08">0.04</metallicity>
 		<spectraltype>M8</spectraltype>
-		<age lowerlimit="0.5" />
+		<age lowerlimit="0.5"/>
 		<planet>
 			<name>TRAPPIST-1b</name>
 			<list>Confirmed planets</list>
@@ -56,6 +56,22 @@
 			<lastupdate>16/05/01</lastupdate>
 			<discoveryyear>2016</discoveryyear>
 			<description>Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory have discovered three planets orbiting an ultracool dwarf star just 40 light-years from Earth. These worlds have sizes and temperatures similar to those of Venus and Earth and are the best targets found so far for the search for life outside the Solar System. They are the first planets ever discovered around such a tiny and dim star. The orbital periof the outer planet is not well constrained yet due to gaps in the observations.</description>
+		</planet>
+		<planet>
+			<name>TRAPPIST-1 b</name>
+			<semimajoraxis errorminus="0.0004" errorplus="0.0004">0.01111</semimajoraxis>
+			<eccentricity>0.0</eccentricity>
+			<inclination errorminus="0.41" errorplus="0.41">89.41</inclination>
+			<impactparameter errorminus="0.14" errorplus="0.14">0.21</impactparameter>
+			<period errorminus="1.9e-05" errorplus="1.9e-05">1.510848</period>
+			<radius errorminus="0.0039" errorplus="0.0039">0.0993</radius>
+			<temperature>350.0</temperature>
+			<age>0.5</age>
+			<discoverymethod>Primary Transit</discoverymethod>
+			<discoveryyear>2016</discoveryyear>
+			<lastupdate>16/11/30</lastupdate>
+			<spectraltype>M8</spectraltype>
+			<magV>18.8</magV>
 		</planet>
 	</star>
 </system>
