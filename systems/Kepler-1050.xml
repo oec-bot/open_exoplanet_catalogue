@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1050 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.600" errorplus="-1.840">3.550</age>
+			<magK>11.717</magK>
+			<magJ>12.042</magJ>
+			<magH>11.753</magH>
+			<metallicity errorminus="0.141" errorplus="-0.165">0.030</metallicity>
+			<radius errorminus="0.031" errorplus="-0.014">0.132</radius>
+			<transittime errorminus="0.0047500" errorplus="-0.0047500">0.1578800</transittime>
+			<period errorminus="0.00011200" errorplus="-0.00011200">21.12845690</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000112000" errorplus="0.000112000">21.128456900</period>
-			<radius errorminus="0.014" errorplus="0.031">0.132</radius>
 		</planet>
 	</star>
 </system>
