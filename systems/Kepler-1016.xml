@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1016 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.270" errorplus="-2.160">3.890</age>
+			<magK>13.728</magK>
+			<magJ>14.179</magJ>
+			<magH>13.843</magH>
+			<metallicity errorminus="0.137" errorplus="-0.182">-0.030</metallicity>
+			<radius errorminus="0.058" errorplus="-0.033">0.328</radius>
+			<transittime errorminus="0.0053300" errorplus="-0.0053300">0.3851200</transittime>
+			<period errorminus="0.00054520" errorplus="-0.00054520">105.65513690</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000545200" errorplus="0.000545200">105.655136900</period>
-			<radius errorminus="0.033" errorplus="0.058">0.328</radius>
 		</planet>
 	</star>
 </system>
