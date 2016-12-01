@@ -4,21 +4,31 @@
 	<declination>+39 14 26</declination>
 	<star>
 		<name>Kepler-826</name>
-		<temperature errorminus="96.5" errorplus="90.5">6079.0</temperature>
-		<mass errorminus="0.06" errorplus="0.07">1.05</mass>
-		<radius errorminus="0.13" errorplus="0.18">1.15</radius>
-		<metallicity errorminus="0.13" errorplus="0.12">-0.12</metallicity>
+		<radius errorminus="0.18" errorplus="-0.13">1.15</radius>
+		<mass errorminus="0.07" errorplus="-0.06">1.05</mass>
+		<magK>12.001</magK>
+		<magJ>12.373</magJ>
+		<magH>12.058</magH>
+		<metallicity errorminus="0.121" errorplus="-0.129">-0.120</metallicity>
+		<age errorminus="1.550" errorplus="-1.950">4.370</age>
+		<temperature errorminus="90.49" errorplus="-96.47">6079.00</temperature>
 		<planet>
 			<name>Kepler-826 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.550" errorplus="-1.950">4.370</age>
+			<magK>12.001</magK>
+			<magJ>12.373</magJ>
+			<magH>12.058</magH>
+			<metallicity errorminus="0.121" errorplus="-0.129">-0.120</metallicity>
+			<radius errorminus="0.018" errorplus="-0.012">0.112</radius>
+			<transittime errorminus="0.0036920" errorplus="-0.0036920">0.1179500</transittime>
+			<period errorminus="0.00001653" errorplus="-0.00001653">4.48758907</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000016530" errorplus="0.000016530">4.487589070</period>
-			<radius errorminus="0.012" errorplus="0.018">0.112</radius>
 		</planet>
 	</star>
 </system>
