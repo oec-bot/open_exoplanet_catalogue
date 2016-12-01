@@ -4,21 +4,31 @@
 	<declination>+51 16 32</declination>
 	<star>
 		<name>Kepler-1193</name>
-		<temperature errorminus="61.1" errorplus="75.0">5908.0</temperature>
-		<mass errorminus="0.04" errorplus="0.06">1.08</mass>
-		<radius errorminus="0.15" errorplus="0.19">1.21</radius>
-		<metallicity errorminus="0.08" errorplus="0.07">0.12</metallicity>
+		<radius errorminus="0.19" errorplus="-0.15">1.21</radius>
+		<mass errorminus="0.06" errorplus="-0.04">1.08</mass>
+		<magK>12.065</magK>
+		<magJ>12.425</magJ>
+		<magH>12.090</magH>
+		<metallicity errorminus="0.074" errorplus="-0.076">0.120</metallicity>
+		<age errorminus="1.560" errorplus="-2.210">5.010</age>
+		<temperature errorminus="75.02" errorplus="-61.06">5908.00</temperature>
 		<planet>
 			<name>Kepler-1193 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.560" errorplus="-2.210">5.010</age>
+			<magK>12.065</magK>
+			<magJ>12.425</magJ>
+			<magH>12.090</magH>
+			<metallicity errorminus="0.074" errorplus="-0.076">0.120</metallicity>
+			<radius errorminus="0.019" errorplus="-0.015">0.118</radius>
+			<transittime errorminus="0.0033670" errorplus="-0.0033670">0.0993500</transittime>
+			<period errorminus="0.00000903" errorplus="-0.00000903">2.83265213</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000009030" errorplus="0.000009030">2.832652130</period>
-			<radius errorminus="0.015" errorplus="0.019">0.118</radius>
 		</planet>
 	</star>
 </system>
