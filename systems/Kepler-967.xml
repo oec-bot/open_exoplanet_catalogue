@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-967 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="3.640" errorplus="-3.240">5.890</age>
+			<magK>12.396</magK>
+			<magJ>12.991</magJ>
+			<magH>12.539</magH>
+			<metallicity errorminus="0.108" errorplus="-0.110">-0.030</metallicity>
+			<radius errorminus="0.013" errorplus="-0.012">0.326</radius>
+			<transittime errorminus="0.0039670" errorplus="-0.0039670">0.3557250</transittime>
+			<period errorminus="0.00065580" errorplus="-0.00065580">198.71125020</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000655800" errorplus="0.000655800">198.711250200</period>
-			<radius errorminus="0.012" errorplus="0.013">0.326</radius>
 		</planet>
 	</star>
 </system>
