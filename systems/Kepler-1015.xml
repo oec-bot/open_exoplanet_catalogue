@@ -4,21 +4,31 @@
 	<declination>+43 25 37</declination>
 	<star>
 		<name>Kepler-1015</name>
-		<temperature errorminus="197.1" errorplus="136.4">6769.0</temperature>
-		<mass errorminus="0.15" errorplus="0.22">1.49</mass>
-		<radius errorminus="0.34" errorplus="0.67">1.81</radius>
-		<metallicity errorminus="0.15" errorplus="0.13">0.06</metallicity>
+		<radius errorminus="0.67" errorplus="-0.34">1.81</radius>
+		<mass errorminus="0.22" errorplus="-0.15">1.49</mass>
+		<magK>11.684</magK>
+		<magJ>11.887</magJ>
+		<magH>11.713</magH>
+		<metallicity errorminus="0.134" errorplus="-0.151">0.060</metallicity>
+		<age errorminus="0.447" errorplus="-0.280">1.580</age>
+		<temperature errorminus="136.36" errorplus="-197.14">6769.00</temperature>
 		<planet>
 			<name>Kepler-1015 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="0.447" errorplus="-0.280">1.580</age>
+			<magK>11.684</magK>
+			<magJ>11.887</magJ>
+			<magH>11.713</magH>
+			<metallicity errorminus="0.134" errorplus="-0.151">0.060</metallicity>
+			<radius errorminus="0.118" errorplus="-0.059">0.317</radius>
+			<transittime errorminus="0.0028210" errorplus="-0.0028210">0.2693670</transittime>
+			<period errorminus="0.00004175" errorplus="-0.00004175">16.00494214</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000041750" errorplus="0.000041750">16.004942140</period>
-			<radius errorminus="0.059" errorplus="0.118">0.317</radius>
 		</planet>
 	</star>
 </system>
