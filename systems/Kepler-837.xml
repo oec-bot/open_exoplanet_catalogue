@@ -4,21 +4,31 @@
 	<declination>+45 57 01</declination>
 	<star>
 		<name>Kepler-837</name>
-		<temperature errorminus="58.5" errorplus="59.0">5403.0</temperature>
-		<mass errorminus="0.06" errorplus="0.05">0.85</mass>
-		<radius errorminus="0.07" errorplus="0.07">0.81</radius>
-		<metallicity errorminus="0.20" errorplus="0.16">-0.18</metallicity>
+		<radius errorminus="0.07" errorplus="-0.07">0.81</radius>
+		<mass errorminus="0.05" errorplus="-0.06">0.85</mass>
+		<magK>13.465</magK>
+		<magJ>13.954</magJ>
+		<magH>13.517</magH>
+		<metallicity errorminus="0.162" errorplus="-0.204">-0.180</metallicity>
+		<age errorminus="6.070" errorplus="-2.420">3.980</age>
+		<temperature errorminus="58.96" errorplus="-58.52">5403.00</temperature>
 		<planet>
 			<name>Kepler-837 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="6.070" errorplus="-2.420">3.980</age>
+			<magK>13.465</magK>
+			<magJ>13.954</magJ>
+			<magH>13.517</magH>
+			<metallicity errorminus="0.162" errorplus="-0.204">-0.180</metallicity>
+			<radius errorminus="0.020" errorplus="-0.038">0.228</radius>
+			<transittime errorminus="0.0036710" errorplus="-0.0036710">0.0942120</transittime>
+			<period errorminus="0.00004293" errorplus="-0.00004293">16.56059504</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000042930" errorplus="0.000042930">16.560595040</period>
-			<radius errorminus="0.038" errorplus="0.020">0.228</radius>
 		</planet>
 	</star>
 </system>
