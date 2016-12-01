@@ -4,21 +4,31 @@
 	<declination>+40 21 19</declination>
 	<star>
 		<name>Kepler-891</name>
-		<temperature errorminus="117.4" errorplus="115.8">5887.0</temperature>
-		<mass errorminus="0.06" errorplus="0.08">1.06</mass>
-		<radius errorminus="0.10" errorplus="0.24">1.07</radius>
-		<metallicity errorminus="0.15" errorplus="0.14">0.09</metallicity>
+		<radius errorminus="0.24" errorplus="-0.10">1.07</radius>
+		<mass errorminus="0.08" errorplus="-0.06">1.06</mass>
+		<magK>13.850</magK>
+		<magJ>14.180</magJ>
+		<magH>13.840</magH>
+		<metallicity errorminus="0.145" errorplus="-0.148">0.090</metallicity>
+		<age errorminus="2.450" errorplus="-1.930">3.550</age>
+		<temperature errorminus="115.84" errorplus="-117.44">5887.00</temperature>
 		<planet>
 			<name>Kepler-891 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.450" errorplus="-1.930">3.550</age>
+			<magK>13.850</magK>
+			<magJ>14.180</magJ>
+			<magH>13.840</magH>
+			<metallicity errorminus="0.145" errorplus="-0.148">0.090</metallicity>
+			<radius errorminus="0.130" errorplus="-0.054">0.572</radius>
+			<transittime errorminus="0.0015460" errorplus="-0.0015460">0.2217830</transittime>
+			<period errorminus="0.00006578" errorplus="-0.00006578">53.44945593</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000065780" errorplus="0.000065780">53.449455930</period>
-			<radius errorminus="0.054" errorplus="0.130">0.572</radius>
 		</planet>
 	</star>
 </system>
