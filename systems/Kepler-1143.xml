@@ -4,21 +4,31 @@
 	<declination>+39 17 23</declination>
 	<star>
 		<name>Kepler-1143</name>
-		<temperature errorminus="130.2" errorplus="192.9">5053.0</temperature>
-		<mass errorminus="0.05" errorplus="0.05">0.81</mass>
-		<radius errorminus="0.04" errorplus="0.05">0.77</radius>
-		<metallicity errorminus="0.17" errorplus="0.15">-0.06</metallicity>
+		<radius errorminus="0.05" errorplus="-0.04">0.77</radius>
+		<mass errorminus="0.05" errorplus="-0.05">0.81</mass>
+		<magK>13.075</magK>
+		<magJ>13.679</magJ>
+		<magH>13.149</magH>
+		<metallicity errorminus="0.150" errorplus="-0.171">-0.060</metallicity>
+		<age errorminus="5.710" errorplus="-2.880">4.790</age>
+		<temperature errorminus="192.88" errorplus="-130.21">5053.00</temperature>
 		<planet>
 			<name>Kepler-1143 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.710" errorplus="-2.880">4.790</age>
+			<magK>13.075</magK>
+			<magJ>13.679</magJ>
+			<magH>13.149</magH>
+			<metallicity errorminus="0.150" errorplus="-0.171">-0.060</metallicity>
+			<radius errorminus="0.012" errorplus="-0.010">0.149</radius>
+			<transittime errorminus="0.0025920" errorplus="-0.0025920">0.0647420</transittime>
+			<period errorminus="0.00000694" errorplus="-0.00000694">2.88890485</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000006940" errorplus="0.000006940">2.888904850</period>
-			<radius errorminus="0.010" errorplus="0.012">0.149</radius>
 		</planet>
 		<planet>
 			<name>Kepler-1143 c</name>
