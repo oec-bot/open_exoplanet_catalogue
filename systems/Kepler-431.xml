@@ -40,10 +40,12 @@
 			<list>Confirmed planets</list>
 			<period>8.703</period>
 			<semimajoraxis>0.0847</semimajoraxis>
+			<metallicity errorminus="0.1" errorplus="0.1">0.07</metallicity>
+			<temperature>951.0</temperature>
 			<radius>0.0596</radius>
 			<transittime errorminus="0.0106" errorplus="0.0106">2454973.1707</transittime>
 			<description>The planet Kepler-431 c was verified as part of a survey for companion stars to Kepler objects of interest.</description>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Primary Transit</discoverymethod>
 			<discoveryyear>2015</discoveryyear>
 			<lastupdate>15/03/18</lastupdate>
 			<istransiting>1</istransiting>
