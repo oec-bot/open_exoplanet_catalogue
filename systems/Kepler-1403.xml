@@ -4,21 +4,31 @@
 	<declination>+38 57 36</declination>
 	<star>
 		<name>Kepler-1403</name>
-		<temperature errorminus="145.9" errorplus="144.2">6060.0</temperature>
-		<mass errorminus="0.07" errorplus="0.10">1.11</mass>
-		<radius errorminus="0.13" errorplus="0.29">1.15</radius>
-		<metallicity errorminus="0.16" errorplus="0.14">0.03</metallicity>
+		<radius errorminus="0.29" errorplus="-0.13">1.15</radius>
+		<mass errorminus="0.10" errorplus="-0.07">1.11</mass>
+		<magK>14.201</magK>
+		<magJ>14.559</magJ>
+		<magH>14.245</magH>
+		<metallicity errorminus="0.137" errorplus="-0.163">0.030</metallicity>
+		<age errorminus="1.630" errorplus="-1.550">3.310</age>
+		<temperature errorminus="144.25" errorplus="-145.90">6060.00</temperature>
 		<planet>
 			<name>Kepler-1403 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="1.630" errorplus="-1.550">3.310</age>
+			<magK>14.201</magK>
+			<magJ>14.559</magJ>
+			<magH>14.245</magH>
+			<metallicity errorminus="0.137" errorplus="-0.163">0.030</metallicity>
+			<radius errorminus="0.048" errorplus="-0.023">0.191</radius>
+			<transittime errorminus="0.0053300" errorplus="-0.0053300">0.1311700</transittime>
+			<period errorminus="0.00002801" errorplus="-0.00002801">5.19492202</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000028010" errorplus="0.000028010">5.194922020</period>
-			<radius errorminus="0.023" errorplus="0.048">0.191</radius>
 		</planet>
 	</star>
 </system>
