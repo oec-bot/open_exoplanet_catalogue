@@ -4,21 +4,31 @@
 	<declination>+43 46 47</declination>
 	<star>
 		<name>Kepler-1170</name>
-		<temperature errorminus="96.5" errorplus="120.4">5069.0</temperature>
-		<mass errorminus="0.05" errorplus="0.04">0.80</mass>
-		<radius errorminus="0.05" errorplus="0.05">0.76</radius>
-		<metallicity errorminus="0.19" errorplus="0.18">-0.09</metallicity>
+		<radius errorminus="0.05" errorplus="-0.05">0.76</radius>
+		<mass errorminus="0.04" errorplus="-0.05">0.80</mass>
+		<magK>13.806</magK>
+		<magJ>14.458</magJ>
+		<magH>13.995</magH>
+		<metallicity errorminus="0.177" errorplus="-0.189">-0.090</metallicity>
+		<age errorminus="5.890" errorplus="-3.050">4.900</age>
+		<temperature errorminus="120.38" errorplus="-96.50">5069.00</temperature>
 		<planet>
 			<name>Kepler-1170 b</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="5.890" errorplus="-3.050">4.900</age>
+			<magK>13.806</magK>
+			<magJ>14.458</magJ>
+			<magH>13.995</magH>
+			<metallicity errorminus="0.177" errorplus="-0.189">-0.090</metallicity>
+			<radius errorminus="0.017" errorplus="-0.015">0.215</radius>
+			<transittime errorminus="0.0047100" errorplus="-0.0047100">0.1543300</transittime>
+			<period errorminus="0.00004242" errorplus="-0.00004242">9.98969327</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
-			<lastupdate>16/05/10</lastupdate>
+			<lastupdate>16/11/30</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000042420" errorplus="0.000042420">9.989693270</period>
-			<radius errorminus="0.015" errorplus="0.017">0.215</radius>
 		</planet>
 	</star>
 </system>
