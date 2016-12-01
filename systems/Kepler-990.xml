@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-990 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="2.380" errorplus="-1.750">3.550</age>
+			<magK>12.928</magK>
+			<magJ>13.362</magJ>
+			<magH>13.031</magH>
+			<metallicity errorminus="0.134" errorplus="-0.173">0.010</metallicity>
+			<radius errorminus="0.031" errorplus="-0.017">0.136</radius>
+			<transittime errorminus="0.0013370" errorplus="-0.0013370">0.0616710</transittime>
+			<period errorminus="0.00000067" errorplus="-0.00000067">0.53835431</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000000670" errorplus="0.000000670">0.538354310</period>
-			<radius errorminus="0.017" errorplus="0.031">0.136</radius>
 		</planet>
 	</star>
 </system>
