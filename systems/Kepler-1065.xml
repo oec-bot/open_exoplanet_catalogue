@@ -32,15 +32,21 @@
 		</planet>
 		<planet>
 			<name>Kepler-1065 c</name>
-			<discoverymethod>transit</discoverymethod>
+			<discoverymethod>Transit</discoverymethod>
+			<age errorminus="4.820" errorplus="-2.760">4.470</age>
+			<magK>13.671</magK>
+			<magJ>14.178</magJ>
+			<magH>13.802</magH>
+			<metallicity errorminus="0.138" errorplus="-0.178">-0.010</metallicity>
+			<radius errorminus="0.021" errorplus="-0.015">0.143</radius>
+			<transittime errorminus="0.0057900" errorplus="-0.0057900">0.0768700</transittime>
+			<period errorminus="0.00001691" errorplus="-0.00001691">2.37030743</period>
 			<list>Confirmed planets</list>
 			<discoveryyear>2016</discoveryyear>
 			<lastupdate>16/05/10</lastupdate>
 			<istransiting>1</istransiting>
 			<new>1</new>
 			<description>This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.</description>
-			<period errorminus="0.000016910" errorplus="0.000016910">2.370307430</period>
-			<radius errorminus="0.015" errorplus="0.021">0.143</radius>
 		</planet>
 	</star>
 </system>
